@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body class="mobile-layout grid-hotel-maps-parent"> 
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header-mobile">
+        <div class="header-mobile-content">
+                <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-bars ic-20"></i>
+                </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                    <ul>
+                        <li><a href="index-mobile.html" class="text-14-gray">Trang Chủ</a></li>
+                        <li><a href="hotel-listing-mobile.html" class="text-14-gray">Khách Sạn</a></li>
+                        <li><a href="flight-listing-departure-mobile.html" class="text-14-gray">Vé Máy Bay</a></li>
+                        <li><a href="tour-listing-mobile.html" class="text-14-gray">Tour Du Lịch</a></li>
+                        <li><a href="#" class="text-14-gray">Điểm Đến</a></li>
+                        <li><a href="#" class="text-14-gray">Khuyến Mãi</a></li>
+                        <li><a href="#" class="text-14-gray">Tin Tức</a></li>
+                        <li><a href="#" class="text-14-gray">Liên Hệ</a></li>
+                        <li><p class="text-14-gray pt-15">Hỗ trợ khách hàng 24/7</p></li>
+                        <li><p class="text-14-gray pt-15">Điện thoại: <span class="text-16-primary-i">19002167</span> / Hotline: <span class="text-16-primary-i">056.728.8999</span></p></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-logo">
+                <a href="index-mobile.html">
+                    <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                </a>
+            </div>
+            <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="fa-solid fa-magnifying-glass ic-20"></i>
+                </button>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        <div class="panel-collapse-custom">
+                            <div class="panel-collapse-custom-child">
+                                <div>
+                                    <div class="form-control-parent">
+                                        <div class="form-input-close">
+                                            <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample1" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                                            <div class="form-input-mobile">
+                                                <input class="form-control form-control-collapse" type="text" placeholder="Nhập tên địa điểm, khách sạn, điểm đến..."> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-search">
+                                        <div class="search-divide mb-20"></div>
+                                        <h3 class="text-16">Tìm kiếm gần đây</h3>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Đà Nẵng</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khu Nghỉ Salinda Phú Quốc (Salinda Resort Phu Quoc Island)</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Premier Residences Phú Quốc Emerald Bay</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khách Sạn Stella Maris Beach Đà Nẵng</a>
+                                        </div>
+                                        <a href="#" class="text-14-blue mt-10">Xóa lịch sử tìm kiếm</a>
+                                    </div>
+                                </div>   
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="hotel-grid-maps-mobile-filter">
+        <div class="grid-maps-filter">
+            <i class="fa-solid fa-magnifying-glass pl-10"></i>
+            <div class="grid-maps-location">
+                <h4 class="text-14-b">Bạn sẽ đi đâu</h4>
+                <input class="form-control input-no-border" type="text" placeholder="Địa điểm bất kỳ" data-bs-toggle="collapse" href="#result_search_hotel2" role="button" aria-expanded="false" aria-controls="result_search_hotel2">
+            </div>
+            <div class="grid-maps-btn-filter" data-bs-toggle="collapse" href="#collapse_filter_mb" role="button" aria-expanded="false" aria-controls="collapse_filter_mb">
+                <i class="fa-solid fa-arrow-down-wide-short ic-20"></i>
+            </div>
+        </div>
+    </div>
+    <div class="home-map fl-wrap">
+            <div class="map-container fw-map fw-map-mobile">
+                <div id="map-main"></div>
+            </div>
+    </div>
+    <div class="grid-maps-result" data-bs-toggle="collapse" data-bs-target="#result_collapse_grid" aria-expanded="false" aria-controls="result_collapse_grid" >
+        <div class="line-40"></div>
+        <a class="text-14-b">1286 Khách sạn tại Đà Nẵng</a>
+    </div>
+    <div class="collapse" id="result_collapse_grid">
+        <div class="card card-body result_collapse_grid_card_mobile">
+            <div class="hotel-maps-button">
+                <a class="text-14-white" href="hotel-grid-maps-mobile.html">Hiện bản đồ
+                <i class="fa-solid fa-map-location-dot"></i>
+                </a>
+            </div>
+            <div class="hotel-grid">
+                <div class="single-grid-maps-mobile">
+                    <div class="image-hotel-grid">
+                        <div class="image">
+                            <div class="swiper mySwiper9">
+                                <div class="swiper-wrapper swiper-wrapper-maps">
+                                    <div class="swiper-slide swiper-slide-custom2 ">
+                                        <img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                    </div>
+                                    <div class="swiper-slide  swiper-slide-custom2">
+                                        <img data-src="assets/images/items-grid/img2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-custom2">
+                                        <img data-src="assets/images/items-grid/img3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next swiper-btn-next-custom-2"><i class="fa-solid fa-arrow-right-long"></i></div>
+                                <div class="swiper-button-prev swiper-btn-prev-custom-2"><i class="fa-solid fa-arrow-left-long"></i></div>  
+                                <div class="swiper-pagination swiper-pagination-custom"></div>
+                            </div>
+                            <div class="top-info">
+                                <div class="heart hotel-grid-heart">
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="label hotel-grid-heart">
+                                    <ul class="label_review">
+                                        <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                    </ul>
+                                    <ul class="text_review">
+                                        <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img src="assets/images/items-grid/img2.jpg" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-grid-maps-mobile">
+                    <div class="image">
+                        <a href="hotel-detail.html" class="thumbnail"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                        <div class="top-info">
+                            <div class="heart hotel-grid-heart">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="label hotel-grid-heart">
+                                <ul class="label_review">
+                                    <li><a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                </ul>
+                                <ul class="text_review">
+                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-content">
+                            <h3 class="title">
+                                <a href="item-details.html">Khách Sạn Stella Maris Beach
+                                    Đà Nẵng</a>
+                            </h3>
+                            <ul class="rating">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                            <ul class="info-list">
+                                <li><a href="javascript:void(0)"><i class="fa-solid fa-location-dot"></i>Quận Sơn Trà, Đà Nẵng</a></li>
+                            </ul>
+                        </div>
+                        <div class="bottom-content">
+                            <p class="base_price"><span>1.056.279đ</span></p>
+                            <p class="price"><span>1.003.465đ</span></p>
+                            <p href="javascript:void(0)" class="label_discount">-51%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-loading text-center mb-20">
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="collapse" id="result_search_hotel2">
+        <div class="card card-body">
+            <div class="result-room-mb drop-location-mobile-parent">
+                <div class="form-input-close-2">
+                    <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#result_search_hotel2" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                    <div class="form-input-mobile-2">
+                        <input class="form-control form-control-collapse" type="text" placeholder="Nhập tên địa điểm, khách sạn, điểm đến..."> 
+                    </div>
+                </div>
+                <div class="search-divide"></div>
+                <div class="drop-location-mobile">
+                    <div class="location-result-mb">
+                            <div class="title-drop-result3">
+                                <h3 class="text-16">Tìm kiếm gần đây</h3>
+                                <a href="#">Xóa lịch sử tìm kiếm</a>
+                            </div>
+                            <div class="result-location-mb">
+                                <div class="col-3">
+                                    <div class="image-result">
+                                        <img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="title-result">
+                                        <a href="#">Khách sạn ABCD</a>
+                                        <p class="result-title-location">Quận Sơn Trà, Đà Nẵng</p>
+                                        <label>Khách sạn</label>
+                                    </div>
+                                </div>
+                                <div class="line">  
+                                </div>
+                            </div>
+                            <div class="result-location-mb">
+                                <div class="col-3">
+                                    <div class="location-result">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="title-result2">
+                                        <a href="#">Biển Mỹ Khê - Quảng Ngãi</a>
+                                        <p class="result-title-location">Thành Phố Quảng Ngãi, Quảng Ngãi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-location-mb">
+                                <div class="col-3">
+                                    <div class="location-result">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="title-result2">
+                                        <a href="#">Bãi Biển Mỹ Khê</a>
+                                        <p class="result-title-location">Quận Sơn Trà, Đà Nẵng</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-location-mb-1">
+                                <div class="col-3">
+                                    <div class="location-result">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="title-result3">
+                                        <div class="col-6 result3-left">
+                                            <a href="#">Thành Phố Đà Lạt</a>
+                                            <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                        </div>
+                                        <div class="col-6 result3-right">
+                                            <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div> 
+                    <div class="popular-location-mobile-parent pt-10">
+                        <h3 class="text-16 pb-10">Địa điểm nổi bật</h3>
+                        <div class="location-mb-tag">
+                            <div class="lc-tag"><a href="#">Phú Quốc</a></div>
+                            <div class="lc-tag"><a href="#">TP Hồ Chí Minh</a></div>
+                            <div class="lc-tag"><a href="#">Đà Nẵng</a></div>
+                            <div class="lc-tag"><a href="#">Quy Nhơn</a></div>
+                            <div class="lc-tag"><a href="#">Nha Trang</a></div>
+                            <div class="lc-tag"><a href="#">Hà Nội</a></div>
+                            <div class="lc-tag"><a href="#">Hà Giang</a></div>
+                            <div class="lc-tag"><a href="#">Đà Lạt</a></div>
+                            <div class="lc-tag"><a href="#">Hội An</a></div>
+                            <div class="lc-tag"><a href="#">Mộc Châu</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="collapse" id="collapse_filter_mb">
+        <div class="card card-body card-custom">
+            <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapse_filter_mb" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+            <div class="title-filter-sidebar">
+                <h4>Bộ lọc</h4>
+                <a href="#">Xóa tất cả lọc</a>
+            </div>
+            <div class="filter-sidebar price">
+                <a>Khoảng giá (1 đêm)</a>
+                <p>0đ - 5.000.000+ đ</p>
+                <input type="range" class="form-range" min="0" max="5" id="customRange2">
+            </div>
+            <div class="filter-sidebar rating">
+                <a>Hạng khách sạn</a>
+                <div class="rating-star">
+                    <div class="form-check rating-5-star">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="form-check rating-5-star">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="form-check rating-5-star">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="form-check rating-5-star">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </label>
+                    </div>
+                    <div class="form-check rating-5-star">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <ul class="star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="filter-sidebar region">
+                <a>Theo khu vực</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quận Liên Chiểu
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quận Sơn Trà
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quận Ngũ Hành Sơn
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quận Cẩm Lệ
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Quận Hải Châu
+                        </label>
+                    </div>
+                    <div class="load-more-sidebar">
+                        <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sidebar hotel-type">
+                <a>Loại khách sạn</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Khách sạn
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Khách sạn căn hộ
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Khu nghỉ dưỡng
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sidebar user-review-sidebar">
+                <a>Người dùng đánh giá</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Tuyệt vời (9.0+)
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Rất tốt (8.0+)
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Tốt (7.0+)
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sidebar services">
+                <a>Dịch vụ đi kèm</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ăn sáng miễn phí
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Hủy miễn phí
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Khuyến mãi, giảm giá
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sidebar extra-services">
+                <a>Tiện nghi</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Đưa / đón khách sân bay
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Đưa / đón khách bến phà
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Đưa / đón khách ga tàu
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Cho thuê xe máy
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Cho thuê ô tô
+                        </label>
+                    </div>
+                    <div class="load-more-sidebar">
+                        <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-sidebar1 our-brands">
+                <a>Thương hiệu</a>
+                <div class="parent">
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Vinpeal
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            FLC Group
+                        </label>
+                    </div> 
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Mường Thanh Hotel Group
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Novotel
+                        </label>
+                    </div>
+                    <div class="form-check filter-child">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Sheraton
+                        </label>
+                    </div>
+                    <div class="load-more-sidebar">
+                        <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>    
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tab-search.js" defer></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+    <!-- Map -->
+	<script src="https://maps.google.com/maps/api/js?key="></script>
+	<script src="assets/js/map_infobox.js"></script>
+	<script src="assets/js/markerclusterer.js"></script> 
+	<script src="assets/js/map.js"></script> 
+
+</body>
+
+</html>

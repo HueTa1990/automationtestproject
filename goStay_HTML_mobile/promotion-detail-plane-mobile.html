@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body class="mobile-layout"> 
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header-mobile navbar-area">
+        <div class="header-mobile-content">
+                <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-bars ic-20"></i>
+                </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                    <ul>
+                        <li><a href="index-mobile.html" class="text-14-gray">Trang Chủ</a></li>
+                        <li><a href="hotel-listing-mobile.html" class="text-14-gray">Khách Sạn</a></li>
+                        <li><a href="flight-listing-departure-mobile.html" class="text-14-gray">Vé Máy Bay</a></li>
+                        <li><a href="tour-listing-mobile.html" class="text-14-gray">Tour Du Lịch</a></li>
+                        <li><a href="#" class="text-14-gray">Điểm Đến</a></li>
+                        <li><a href="#" class="text-14-gray">Khuyến Mãi</a></li>
+                        <li><a href="#" class="text-14-gray">Tin Tức</a></li>
+                        <li><a href="#" class="text-14-gray">Liên Hệ</a></li>
+                        <li><p class="text-14-gray pt-15">Hỗ trợ khách hàng 24/7</p></li>
+                        <li><p class="text-14-gray pt-15">Điện thoại: <span class="text-16-primary-i">19002167</span> / Hotline: <span class="text-16-primary-i">056.728.8999</span></p></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-logo">
+                <a href="index-mobile.html">
+                    <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                </a>
+            </div>
+            <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="fa-solid fa-magnifying-glass ic-20"></i>
+                </button>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        <div class="panel-collapse-custom">
+                            <div class="panel-collapse-custom-child">
+                                <div>
+                                    <div class="form-control-parent">
+                                        <div class="form-input-close">
+                                            <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample1" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                                            <div class="form-input-mobile">
+                                                <input class="form-control form-control-collapse" type="text" placeholder="Nhập tên địa điểm, khách sạn, điểm đến..."> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-search">
+                                        <div class="search-divide mb-20"></div>
+                                        <h3 class="text-16">Tìm kiếm gần đây</h3>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Đà Nẵng</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khu Nghỉ Salinda Phú Quốc (Salinda Resort Phu Quoc Island)</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Premier Residences Phú Quốc Emerald Bay</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khách Sạn Stella Maris Beach Đà Nẵng</a>
+                                        </div>
+                                        <a href="#" class="text-14-blue mt-10">Xóa lịch sử tìm kiếm</a>
+                                    </div>
+                                </div>   
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="promotion-detail-page">
+        <div class="promotion-image">
+            <div class="container-fluid">
+                <img data-src="assets/images/promotion/bamboo-airway.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+            </div>
+        </div>
+        <div class="promotion-content">
+            <div class="container">
+                <h3 class="text-align-center">CÙNG BAMBOO VI VU ĐÓN NĂM MỚI, GIÁ CỰC HỜI CHỈ TỪ 19K</h3>
+                <p class="italic text-align-center">"Đặt vé chưa con? Quên quên vài bữa đến Tết không khéo sát ngày khó mua…"</p>
+                <p class="text-align-center text-14 mt-30">📣Nhiều hơn một lời hỏi thăm, những câu hỏi quen thuộc của của mẹ mỗi dịp cận Tết chính là mong mỏi đứa con xa nhà 1 năm qua có thể về nhà sớm dịp Tết. Để giúp quý khách hàng có thể sum vầy bên gia đình trong không khí chào đón Tết Quý Mão 2023, Bamboo Airways tặng ngàn ưu đãi cực hời, cực rẻ chỉ từ 19k.
+                </p>
+                <div class="promotion-code-detail text-align-center text-14-b mt-40">
+                    <p>📍Chi tiết chương trình</p>
+                    <ul>
+                        <li>👉Chỉ từ 19K đối với các chặng: Nha Trang/ Đà Lạt/ Phú Quốc/ Quy Nhơn/ Đà Nẵng/ Buôn Ma Thuột/ Huế/ Pleiku/ Chu Lai 🛫 TP. Hồ Chí Minh.</li>
+                        <li>👉Chỉ từ 99K đối với các chặng: Hải Phòng/ Thanh Hóa/ Vinh/ Điện Biên Phủ/ Đồng Hới/ Vân Đồn 🛫 TP. Hồ Chí Minh</li>
+                        <li>⏰Thời gian bán: từ 8/11/2022 đến hết 18/11/2022</li>
+                        <li>⏰Thời gian bay áp dụng: Từ 28/12/2022 -22/1/2023</li>
+                    </ul>
+                </div>
+                <p class="text-align-center mt-30">✈️Săn vé giá hời, đón Tết đoàn viên cùng Mytour ngay
+                    <span>
+                        <a class="text-14-underline text-align-center" href="flight-listing-departure.html">TẠI ĐÂY</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="flight-tab-popular">
+            <div class="container">
+                <div class="tab-product tab-product-mb">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="tab-flight-mb">
+                                <button class="tablinks" onclick="openCity(event, 'city1','tabproduct')" id="defaultOpen2">Hà Nội - Phú Quốc</button>
+                                <button class="tablinks" onclick="openCity(event, 'city2','tabproduct')">TP Hồ Chí Minh - Đà Nẵng</button>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="tab-flight-mb">
+                                <button class="tablinks" onclick="openCity(event, 'city3','tabproduct')">Hà Nội - Quy Nhơn</button>
+                                <button class="tablinks" onclick="openCity(event, 'city2','tabproduct')">Huế - TP Hồ Chí Minh</button>
+                            </div>
+                          </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="tabproduct">
+                    <div id="city1" class="tabcontent_hotel">
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-2 row-cols-xxl-3 mb-80">
+                                <div class="col-md-6 col-12 mb-30">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/vna.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">Vietnam Airlines</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="col-md-6 col-12 mb-30">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/bamboo.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">Bamboo Airways</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrows-left-right"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 mb-30">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/vietjet.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">VietjetAir</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/vna.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">Vietnam Airlines</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/bamboo.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">Bamboo Airways</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrows-left-right"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <div class="flight-single-grid flight-single-grid-1 flight-single-grid-mobile">
+                                        <div class="top-info">
+                                            <a href="#" class="flight">
+                                                <img data-src="assets/images/flight/vietjet.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#">
+                                                <h3 class="text-14">VietjetAir</h3>
+                                             </a>
+                                        </div>
+                                        <div class="fl-content mt-15">
+                                            <div class="fl-top-content">
+                                                <h4 class="text-16-b">(HAN) Nội Bài</h4>
+                                                <i class="fa-solid fa-arrow-right-long"></i>
+                                                <h4 class="text-16-b">(TSN) Tân Sơn Nhất</h4>
+                                            </div>
+                                            <div class="info-list mt-10">
+                                                <a href="javascript:void(0)"><i class="fa-solid fa-plane-departure ic-12"></i>Khởi hành: <span>25/09/2022</span></a>
+                                            </div>    
+                                            <div class="fl-bottom-content">
+                                                <p class="base_price">1.056.279đ</p>
+                                                <p class="price">1.003.465đ</p>
+                                                <p class="price2">Giá sau thuế:<span>1.280.000đ</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                  
+                        </div>
+                    </div>
+                    <div id="city2" class="tabcontent_hotel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-mobile mt-20 mb-20 pt-20">
+        <div class="mobile-logo-footer">
+            <a href="index-mobile.html">
+                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+            </a>
+        </div>
+        <div class="line-horizontal-1"></div>
+        <div class="swipe-footer-links">
+            <div class="mb-ft-links">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <h3 class="text-16">Các khách sạn hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Khách sạn tại Hà Nội</a></li>
+                                    <li><a href="#">Khách sạn tại Hải Phòng</a></li>
+                                    <li><a href="#">Khách sạn tại Hạ Long</a></li>
+                                    <li><a href="#">Khách sạn tại Huế</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Bình</a></li>
+                                    <li><a href="#">Khách sạn tại Đà Nẵng</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Nam</a></li>
+                                    <li><a href="#">Khách sạn tại Nha Trang</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Khách sạn tại Đà Lạt</a></li>
+                                    <li><a href="#">Khách sạn tại Phan Thiết</a></li>
+                                    <li><a href="#">Khách sạn tại Bà Rịa - Vũng Tàu</a></li>
+                                    <li><a href="#">Khách sạn tại Phú Quốc</a></li>
+                                    <li><a href="#">Khách sạn tại Cần Thơ</a></li>
+                                    <li><a href="#">Khách sạn tại Bắc Kạn</a></li>
+                                    <li><a href="#">Khách sạn tại Hà Giang</a></li>
+                                    <li><a href="#">Khách sạn tại Sa Pa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <h3 class="text-16">Chuyến bay & Chặng bay hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Chuyến bay đến Hà Nội</a></li>
+                                    <li><a href="#">Chuyến bay đến Hồ Chí Minh</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Nẵng</a></li>
+                                    <li><a href="#">Chuyến bay đến Nha Trang</a></li>
+                                    <li><a href="#">Chuyến bay đến Hải Phòng</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Lạt</a></li>
+                                    <li><a href="#">Chuyến bay đến Phú Quốc</a></li>
+                                    <li><a href="#">Chuyến bay đến Quy Nhơn</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Chặng Hà Nội - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Tân Sơn Nhất - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Quy Nhơn</a></li>
+                                    <li><a href="#">Chặng Đà Nẵng - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Thanh Hóa - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Nha Trang</a></li>
+                                    <li><a href="#">Chặng Hà Nội - TP Vinh</a></li>
+                                    <li><a href="#">Chặng Huế - Tân Sơn Nhất</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h3 class="text-16">Tour du lịch</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="ft-cls">
+                                    <ul class="ft-cls-1 pt-10">
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+                                    </ul>
+                                    <ul class="ft-cls-2 pt-10">
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                
+
+            </div>
+            <div class="line-horizontal-1"></div>
+            <div class="address-mobile-footer">
+                <h3 class="text-16">SGO Travel - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                <ul class="footer-address pt-10">
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                </ul>
+            </div>
+            <div class="mb-social-ft">
+                <h3 class="text-16">Kết nối với chúng tôi</h3>
+                <ul class="footer-social pt-10">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="mb-payment-ft">
+                <h3 class="text-16">Chấp nhận thanh toán</h3>
+                <ul class="payment pt-10">
+                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                </ul>
+            </div>
+            <div class="mb-copyright-ft">
+                <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO Travel. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                <div class="footter-botom-image">
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+        
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/tab-product.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+    <script>
+        let copybtn = document.querySelector(".copybtn");    
+        function copyIt(){
+        let copyInput = document.querySelector('#copyvalue');
+        copyInput.select();    
+        document.execCommand("copy");    
+        copybtn.textContent = "COPIED";
+         }    
+    </script>
+
+</body>
+
+</html>

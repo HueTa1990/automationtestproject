@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+
+<body class="mobile-layout"> 
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header-mobile navbar-area">
+        <div class="header-mobile-content">
+                <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-bars ic-20"></i>
+                </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                    <ul>
+                        <li><a href="index-mobile.html" class="text-14-gray">Trang Chủ</a></li>
+                        <li><a href="hotel-listing-mobile.html" class="text-14-gray">Khách Sạn</a></li>
+                        <li><a href="flight-listing-departure-mobile.html" class="text-14-gray">Vé Máy Bay</a></li>
+                        <li><a href="tour-listing-mobile.html" class="text-14-gray">Tour Du Lịch</a></li>
+                        <li><a href="#" class="text-14-gray">Điểm Đến</a></li>
+                        <li><a href="#" class="text-14-gray">Khuyến Mãi</a></li>
+                        <li><a href="#" class="text-14-gray">Tin Tức</a></li>
+                        <li><a href="#" class="text-14-gray">Liên Hệ</a></li>
+                        <li><p class="text-14-gray pt-15">Hỗ trợ khách hàng 24/7</p></li>
+                        <li><p class="text-14-gray pt-15">Điện thoại: <span class="text-16-primary-i">19002167</span> / Hotline: <span class="text-16-primary-i">056.728.8999</span></p></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-logo">
+                <a href="index-mobile.html">
+                    <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                </a>
+            </div>
+            <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="fa-solid fa-magnifying-glass ic-20"></i>
+                </button>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        <div class="panel-collapse-custom">
+                            <div class="panel-collapse-custom-child">
+                                <div>
+                                    <div class="form-control-parent">
+                                        <div class="form-input-close">
+                                            <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample1" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                                            <div class="form-input-mobile">
+                                                <input class="form-control form-control-collapse" type="text" placeholder="Nhập tên địa điểm, khách sạn, điểm đến..."> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-search">
+                                        <div class="search-divide mb-20"></div>
+                                        <h3 class="text-16">Tìm kiếm gần đây</h3>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Đà Nẵng</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khu Nghỉ Salinda Phú Quốc (Salinda Resort Phu Quoc Island)</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Premier Residences Phú Quốc Emerald Bay</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khách Sạn Stella Maris Beach Đà Nẵng</a>
+                                        </div>
+                                        <a href="#" class="text-14-blue mt-10">Xóa lịch sử tìm kiếm</a>
+                                    </div>
+                                </div>   
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <section class="hotel-booking-mb">
+        <div class="booking-payment-parent-mb">
+            <div class="bk-success-mb">
+                <div class="bk-title-center-mobile">
+                    <i class="pt-10 fa-regular fa-circle-check ic-50"></i>
+                    <h3 class="pt-10 text-18">Gửi yêu cầu đặt Tour thành công</h3>
+                    <div class="pt-10 text-14-gray">goStay sẽ chủ động liên hệ với quý khách trong vòng 30 phút để xác nhận tour và hướng dẫn thanh toán.</div>
+                </div>
+                <div class="bk-success-info-mb">
+                    <div class="bk-success-code">
+                        <div class="text-14">
+                            Mã đặt Tour
+                        </div>
+                        <div class="text-16-b">MT272658555</div>
+                    </div>
+                    <div class="bk-success-date">
+                        <div class="text-14">
+                            Ngày đặt
+                        </div>
+                        <div class="text-16-b">05 Tháng 10, 2022</div>
+                    </div>
+                    <div class="bk-success-price">
+                        <div class="text-14">
+                            Tổng thanh toán
+                        </div>
+                        <div class="text-16-b">6.066.666đ</div>
+                    </div>
+                    <div class="bk-success-price">
+                        <div class="text-14">
+                            Phương thức thanh toán
+                        </div>
+                        <div class="text-16-b">Chuyển khoản trực tiếp</div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-divide"></div>
+            <div class="booking-room-mb">
+                <h3 class="text-16-b">Thông tin Tour</h3>
+                <div class="booking-items-mb mt-20 mb-10">
+                                <div class="col-3 booking-image">
+                                    <img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                                </div>
+                                <div class="col-9 booking-items-info">
+                                    <h3 class="text-16-b">Tour Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</h3>
+                                    <div class="rating-booking">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star ic-12-star"></i></li>
+                                            <li><i class="fa-solid fa-star ic-12-star"></i></li>
+                                            <li><i class="fa-solid fa-star ic-12-star"></i></li>
+                                            <li><i class="fa-solid fa-star ic-12-star"></i></li>
+                                            <li><i class="fa-solid fa-star ic-12-star"></i></li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-review">
+                                        <div class="label2">
+                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                        </div>
+                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                    </div>
+                                    <div class="hotel-detail-location-mb">
+                                        <a class="text-12"><i class="fa-solid fa-location-dot ic-16"></i>Hội An, Đà Nẵng, Việt Nam</a>
+                                        <a class="text-12 mb-maps"><i class="fa-solid fa-map-location-dot ic-16"></i><br><span class="text-12-primary">Bản đồ</span></a>
+                                    </div>
+                                </div>
+                </div>
+                <hr>
+                <div class="bk-date-room mt-10 mb-10">
+                                <div class="detail-select-date-mb">
+                                    <div class="select-checkin-mb">
+                                        <label class="text-12">Ngày đi</label>
+                                        <div class="text-14">Thứ 6, 21 Tháng 10</div>
+                                    </div>                                              
+                                    <div class="select-checkout-mb" >     
+                                        <label class="text-12">Nơi đi</label>
+                                        <div class="text-14">Thứ 3, 26 Tháng 10</div>
+                                    </div>
+                                    <div class="select-checkout-mb" >     
+                                        <label class="text-12">Số đêm</label>
+                                        <div class="text-14">5 đêm</div>
+                                    </div>                                            
+                                </div>
+                </div>
+                <hr>
+                <div class="tour-booking-select-parent-mb">
+                    <div class="tour-booking-select">
+                        <a class="text-14">Tour bạn chọn</a>
+                        <div class="text-16-b">Tour Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</div>
+                    </div>
+                    <div class="tour-bk-date-room">
+                        <div class="text-14-gray">4 Ngày 5 Đêm</div>
+                        <div class="text-14-gray">2 Phòng, 4 Khách (Bao gồm 2 Người lớn và 2 Trẻ em)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-divide"></div>
+            <div class="mb-40 bk-user-info-mb">
+                <div class="text-16-b">Thông tin liên hệ</div>
+                <div class="bk-phone-email">
+                    <div class="text-14-b">Trần Trung Linh</div>
+                    <div class="text-14">/ 0969626123</div>
+                    <div class="text-14">/ linhtt@sgotravel.com.vn</div>
+                </div>
+                <div class="mt-10 pl-20 guest-info-room-mb">
+                    <div class="text-14">Thông tin khách hàng 1:</div>
+                    <div class="tour-bk-guest-mb mb-10">
+                        <div>Họ và tên: <span class="text-14-b">Nguyễn Văn Anh</span></div>
+                        <div>Giới tính: <span class="text-14-b">Nam</span></div>
+                        <div>Ngày sinh: <span class="text-14-b">28 Tháng 8, 1990</span></div>
+                    </div>
+                    <hr>
+                    <div class="text-14 mt-10">Thông tin khách hàng 2:</div>
+                    <div class="tour-bk-guest-mb mb-10">
+                        <div>Họ và tên: <span class="text-14-b">Nguyễn Văn Anh</span></div>
+                        <div>Giới tính: <span class="text-14-b">Nam</span></div>
+                        <div>Ngày sinh: <span class="text-14-b">28 Tháng 8, 1990</span></div>
+                    </div>
+                    <hr>
+                    <div class="text-14 mt-10">Thông tin khách hàng 3:</div>
+                    <div class="tour-bk-guest-mb mb-10">
+                        <div>Họ và tên: <span class="text-14-b">Nguyễn Văn Anh</span></div>
+                        <div>Giới tính: <span class="text-14-b">Nam</span></div>
+                        <div>Ngày sinh: <span class="text-14-b">28 Tháng 8, 1990</span></div>
+                    </div>
+                    <hr>
+                    <div class="text-14 mt-10">Thông tin khách hàng 4:</div>
+                    <div class="tour-bk-guest-mb mb-10">
+                        <div>Họ và tên: <span class="text-14-b">Nguyễn Văn Anh</span></div>
+                        <div>Giới tính: <span class="text-14-b">Nam</span></div>
+                        <div>Ngày sinh: <span class="text-14-b">28 Tháng 8, 1990</span></div>
+                    </div>
+                    <hr>
+                    <div class="text-14 mt-10">Thông tin khách hàng 5:</div>
+                    <div class="tour-bk-guest-mb mb-10">
+                        <div>Họ và tên: <span class="text-14-b">Nguyễn Văn Anh</span></div>
+                        <div>Giới tính: <span class="text-14-b">Nam</span></div>
+                        <div>Ngày sinh: <span class="text-14-b">28 Tháng 8, 1990</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-mobile mt-20 mb-20 pt-20">
+        <div class="mobile-logo-footer">
+            <a href="index-mobile.html">
+                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+            </a>
+        </div>
+        <div class="line-horizontal-1"></div>
+        <div class="swipe-footer-links">
+            <div class="mb-ft-links">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <h3 class="text-16">Các khách sạn hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Khách sạn tại Hà Nội</a></li>
+                                    <li><a href="#">Khách sạn tại Hải Phòng</a></li>
+                                    <li><a href="#">Khách sạn tại Hạ Long</a></li>
+                                    <li><a href="#">Khách sạn tại Huế</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Bình</a></li>
+                                    <li><a href="#">Khách sạn tại Đà Nẵng</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Nam</a></li>
+                                    <li><a href="#">Khách sạn tại Nha Trang</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Khách sạn tại Đà Lạt</a></li>
+                                    <li><a href="#">Khách sạn tại Phan Thiết</a></li>
+                                    <li><a href="#">Khách sạn tại Bà Rịa - Vũng Tàu</a></li>
+                                    <li><a href="#">Khách sạn tại Phú Quốc</a></li>
+                                    <li><a href="#">Khách sạn tại Cần Thơ</a></li>
+                                    <li><a href="#">Khách sạn tại Bắc Kạn</a></li>
+                                    <li><a href="#">Khách sạn tại Hà Giang</a></li>
+                                    <li><a href="#">Khách sạn tại Sa Pa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <h3 class="text-16">Chuyến bay & Chặng bay hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Chuyến bay đến Hà Nội</a></li>
+                                    <li><a href="#">Chuyến bay đến Hồ Chí Minh</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Nẵng</a></li>
+                                    <li><a href="#">Chuyến bay đến Nha Trang</a></li>
+                                    <li><a href="#">Chuyến bay đến Hải Phòng</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Lạt</a></li>
+                                    <li><a href="#">Chuyến bay đến Phú Quốc</a></li>
+                                    <li><a href="#">Chuyến bay đến Quy Nhơn</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Chặng Hà Nội - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Tân Sơn Nhất - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Quy Nhơn</a></li>
+                                    <li><a href="#">Chặng Đà Nẵng - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Thanh Hóa - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Nha Trang</a></li>
+                                    <li><a href="#">Chặng Hà Nội - TP Vinh</a></li>
+                                    <li><a href="#">Chặng Huế - Tân Sơn Nhất</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h3 class="text-16">Tour du lịch</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="ft-cls">
+                                    <ul class="ft-cls-1 pt-10">
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+                                    </ul>
+                                    <ul class="ft-cls-2 pt-10">
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <div class="line-horizontal-1"></div>
+            <div class="address-mobile-footer">
+                <h3 class="text-16">SGO Travel - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                <ul class="footer-address pt-10">
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                </ul>
+            </div>
+            <div class="mb-social-ft">
+                <h3 class="text-16">Kết nối với chúng tôi</h3>
+                <ul class="footer-social pt-10">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="mb-payment-ft">
+                <h3 class="text-16">Chấp nhận thanh toán</h3>
+                <ul class="payment pt-10">
+                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                </ul>
+            </div>
+            <div class="mb-copyright-ft">
+                <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                <div class="footter-botom-image">
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>    
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js?v=1" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+</body>
+
+</html>

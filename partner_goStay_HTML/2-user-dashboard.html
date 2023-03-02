@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/chart.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="align-items-center d-flex justify-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                    </a>
+                    <div class="nav-inner w-100 pl-50">
+                            <div class="row justify-between items-center">
+                                <div class="col-auto">
+                                    <div class="d-flex items-center">
+                                        <a data-x-click="dashboard">
+                                            <i class="fa-solid fa-bars-staggered ic-20"></i>
+                                        </a>
+                                        <div class="search-form-dashboard pl-20">
+                                            <div class="relative d-flex items-center">
+                                                <input class="pl-50" type="email" placeholder="Tìm kiếm...">
+                                                <span class="absolute d-flex items-center">
+                                                    <i class="fa-solid fa-magnifying-glass px-15"></i>
+                                                </span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="nav-right">
+                                        <div class="button-header">
+                                            <div class="hotline-header">
+                                                Hotline: (+123) 456 7890
+                                            </div>
+                                            <a href="4-add-hotel.html" class="add-room-button">
+                                                <i class="fa-solid fa-square-plus"></i>
+                                                Đăng phòng ngay
+                                            </da>
+                                        </div>
+                                        <div class="header-icon align-items-center">
+                                            <a href="#" class="mail-noti">
+                                                <i class="fa-solid fa-envelope"></i>
+                                            </a>
+                                            <a href="#" class="notification">
+                                                <i class="fa-solid fa-bell"></i>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="click-drop-menu">
+                                                    <i class="fa-solid fa-bars"></i>
+                                                </div>
+                                                <div class="click-drop-avata">
+                                                    <i class="fa-solid fa-circle-user"></i>
+                                                </div>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginform">
+                                                        Đăng nhập
+                                                        </button>
+                                                    </div>                                            
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginverify">
+                                                            Xác thực đăng nhập
+                                                        </button> 
+                                                    </div>                                       
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginformemail">
+                                                            Đăng nhập Email
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#registeremail">
+                                                            Đăng ký
+                                                        </button>
+                                                    </div>      
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification">
+                                                            Notification
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification-1">
+                                                            Notification 1
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <div>
+                                                            <a href="listing-wislist.html" class="btn-login-custom">
+                                                                Danh sách yêu thích
+                                                            </a>
+                                                        </div>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom">
+                                                            Hỗ trợ
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom">
+                                                            Cộng tác viên
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <div class="dashboard-parent">
+        <div class="container-fuild">
+            <div class="dashboard" data-x="dashboard" data-x-toggle="-is-sidebar-open">
+                    <div class="dashboard-sidebar">
+                        <div class="sidebar-dashboard">
+                            <div class="sidebar-item active">
+                                <a href="#" class="sidebar-button active d-flex align-items-center">
+                                    <i class="fa-solid fa-gauge-high"></i>
+                                    Bảng điều khiển
+                                </a>
+                            </div>
+                            <div class="sidebar-item">
+                                <a href="#" class="sidebar-button d-flex align-items-center">
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                    Quản lý Đặt chỗ
+                                </a>    
+                            </div>
+                            <div class="sidebar-item">                                
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="flush-headingOne">
+                                                <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    <i class="fa-solid fa-hotel"></i>
+                                                    Quản lý Phòng
+                                                </a>
+                                            </div>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSidebar">
+                                                <div class="accordion-body manager-room-body">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Danh sách Phòng</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Thêm phòng</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingTwo">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <i class="fa-solid fa-umbrella-beach"></i>
+                                                Quản lý Tour
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingThree">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <i class="fa-solid fa-plane-circle-check"></i>
+                                                Quản lý vé máy bay
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingFour">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                <i class="fa-solid fa-car"></i>
+                                                Quản lý Xe thuê
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-main">
+                        <div class="dashboard-content">
+                            <div class="dashboard-title pb-50">
+                                <h4>Bảng điều khiển</h4>
+                            </div>
+                            <div class="row y-gap-30">
+                                <div class="col-xxl-3 col-xl-3 col-md-6">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row y-gap-20 d-flex justify-between items-center">
+                                            <div class="col-auto">
+                                                <div class="text-16 fw-500 mb-10">Đang xử lý</div>
+                                                <div class="text-26 fw-600 mb-10">
+                                                    $28,800
+                                                </div>
+                                                <div class="text-14-gray">
+                                                    Doanh thu đang xử lý
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <img class="w-60" data-src="assets/images/dashboard/time-is-money.png" src="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-md-6">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row y-gap-20 d-flex justify-between items-center">
+                                            <div class="col-auto">
+                                                <div class="text-16 fw-500 mb-10">Tổng thu nhập</div>
+                                                <div class="text-26 fw-600 mb-10">
+                                                    $30,800
+                                                </div>
+                                                <div class="text-14-gray">
+                                                    Tổng thu nhập thực tế
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <img class="w-60" data-src="assets/images/dashboard/money.png" src="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-md-6">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row y-gap-20 d-flex justify-between items-center">
+                                            <div class="col-auto">
+                                                <div class="text-16 fw-500 mb-10">Doanh thu thực tế</div>
+                                                <div class="text-26 fw-600 mb-10">
+                                                    $18,800
+                                                </div>
+                                                <div class="text-14-gray">
+                                                    Tổng doanh thu thực tế
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <img class="w-60" data-src="assets/images/dashboard/save-money.png" src="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-md-6">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row y-gap-20 d-flex justify-between items-center">
+                                            <div class="col-auto">
+                                                <div class="text-16 fw-500 mb-10">Pending</div>
+                                                <div class="text-26 fw-600 mb-10">
+                                                    $18,800
+                                                </div>
+                                                <div class="text-14-gray">
+                                                    Total pending
+                                                </div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <img class="w-60" data-src="assets/images/dashboard/booking.png" src="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-30">
+                                <div class="col-xxl-7 col-xl-12 col-md-12 mb-30">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="d-flex justify-between items-center mb-30">
+                                            <h2 class="text-18 fw-500">Thống kê thu nhập</h2>
+                                            <div class="dropdown dropdown-custom rounded-5">
+                                                <span class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Theo tuần</span>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Theo tuần</a></li>
+                                                    <li><a class="dropdown-item" href="#">Theo tháng</a></li>
+                                                    <li><a class="dropdown-item" href="#">Theo năm</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <canvas id="Chart2" data-key="Tháng 1,Tháng 2,Tháng 3,Tháng 4,Tháng 5,Tháng 6,Tháng 7,Tháng 8,Tháng 9,Tháng 10,Tháng 11,Tháng 12"  data-value="55,100,70,80,62,98,122,22,35,10,20,40" style="width:100%;"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-5 col-xl-12 col-md-12 mb-30">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="d-flex justify-between items-center">
+                                            <h2 class="text-18 fw-500">Đặt chỗ gần đây</h2>
+                                            <a href="#" class="view-all">
+                                                View All
+                                            </a>
+                                        </div>
+                                        <div class="recent-booking">
+                                            <table class="table-2 col-12">
+                                                <thead class="">
+                                                  <tr>
+                                                    <th>#</th>
+                                                    <th>Tên danh mục</th>
+                                                    <th>Tổng</th>
+                                                    <th>Trạng thái</th>
+                                                    <th>Thời gian</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                              
+                                                  <tr>
+                                                    <td>#1</td>
+                                                    <td>Mũi Né Bay Resort </td>
+                                                    <td class="fw-500">837.818 VND</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-yellow text-yellow">Pending</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+                              
+                                                  <tr>
+                                                    <td>#2</td>
+                                                    <td>Khách sạn Anya Premier Quy Nhơn</td>
+                                                    <td class="fw-500">1.256.727 VND</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-blue-1-05 text-blue-1">Confirmed</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+                              
+                                                  <tr>
+                                                    <td>#3</td>
+                                                    <td>Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</td>
+                                                    <td class="fw-500">3.256.727 VND</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-red-3 text-red-2">Rejected</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+                              
+                                                  <tr>
+                                                    <td>#4</td>
+                                                    <td>New York<br> Discover America</td>
+                                                    <td class="fw-500">$130</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-blue-1-05 text-blue-1">Confirmed</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+                              
+                                                  <tr>
+                                                    <td>#5</td>
+                                                    <td>New York<br> Discover America</td>
+                                                    <td class="fw-500">$130</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-blue-1-05 text-blue-1">Confirmed</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+
+                                                  <tr>
+                                                    <td>#6</td>
+                                                    <td>New York<br> Discover America</td>
+                                                    <td class="fw-500">$130</td>
+                                                    <td>
+                                                      <div class="rounded-100 py-1 text-14 text-center col-12 fw-500 bg-blue-1-05 text-blue-1">Confirmed</div>
+                                                    </td>
+                                                    <td>04/04/2022<br>08:16</td>
+                                                  </tr>
+                              
+                                                </tbody>
+                                              </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="footer-dashboard">
+                            <div class="footer_row row items-center justify-between">
+                              <div class="col-auto">
+                                <div class="row y-gap-20 items-center">
+                                  <div class="col-auto">
+                                    <div class="text-14 lh-14 mr-30">©2022 goStay. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO</div>
+                                  </div>
+                                </div>
+                              </div>                  
+                              <div class="col-auto">
+                                <div class="d-flex x-gap-5 y-gap-5 items-center">
+                                  <a class="text-14 fw-500 underline">English (US)</a>
+                                  <a class="text-14 fw-500 underline">USD</a>
+                                </div>
+                              </div>
+                            </div>
+                          </footer>
+                    </div>
+            </div>
+        </div>
+
+    
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <!-- ========================= JS here ========================= -->  
+    <script src="assets/js/main.js?v=7"></script>   
+    <script src="assets/js/chart.js?v=3"></script>
+  
+
+</body>
+
+</html>

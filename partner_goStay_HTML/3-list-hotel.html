@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/chart.min.js"></script>
+    <script src="ckeditor/ckeditor.js"></script>
+	<script src="ckeditor/samples/js/sample.js"></script>
+
+</head>
+
+<body>
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="align-items-center d-flex justify-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                    </a>
+                    <div class="nav-inner w-100 pl-50">
+                            <div class="row justify-between items-center">
+                                <div class="col-auto">
+                                    <div class="d-flex items-center">
+                                        <a data-x-click="dashboard">
+                                            <i class="fa-solid fa-bars-staggered ic-20"></i>
+                                        </a>
+                                        <div class="search-form-dashboard pl-20">
+                                            <div class="relative d-flex items-center">
+                                                <input class="pl-50" type="email" placeholder="Tìm kiếm...">
+                                                <span class="absolute d-flex items-center">
+                                                    <i class="fa-solid fa-magnifying-glass px-15"></i>
+                                                </span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="nav-right">
+                                        <div class="button-header">
+                                            <div class="hotline-header">
+                                                Hotline: (+123) 456 7890
+                                            </div>
+                                            <div class="add-room-button">
+                                                <i class="fa-solid fa-square-plus"></i>
+                                                Đăng phòng ngay
+                                            </div>
+                                        </div>
+                                        <div class="header-icon align-items-center">
+                                            <a href="#" class="mail-noti">
+                                                <i class="fa-solid fa-envelope"></i>
+                                            </a>
+                                            <a href="#" class="notification">
+                                                <i class="fa-solid fa-bell"></i>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="click-drop-menu">
+                                                    <i class="fa-solid fa-bars"></i>
+                                                </div>
+                                                <div class="click-drop-avata">
+                                                    <i class="fa-solid fa-circle-user"></i>
+                                                </div>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginform">
+                                                        Đăng nhập
+                                                        </button>
+                                                    </div>                                            
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginverify">
+                                                            Xác thực đăng nhập
+                                                        </button> 
+                                                    </div>                                       
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginformemail">
+                                                            Đăng nhập Email
+                                                        </button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#registeremail">
+                                                            Đăng ký
+                                                        </button>
+                                                    </div>      
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification">
+                                                            Notification
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification-1">
+                                                            Notification 1
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <div>
+                                                            <a href="listing-wislist.html" class="btn-login-custom">
+                                                                Danh sách yêu thích
+                                                            </a>
+                                                        </div>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom">
+                                                            Hỗ trợ
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                                <li>
+                                                    <div class="dropdown-item pl-20">
+                                                        <button type="button" class="btn-login-custom">
+                                                            Cộng tác viên
+                                                        </button>
+                                                    </div>  
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <div class="dashboard-parent">
+        <div class="container-fuild">
+            <div class="dashboard" data-x="dashboard" data-x-toggle="-is-sidebar-open">
+                    <div class="dashboard-sidebar">
+                        <div class="sidebar-dashboard">
+                            <div class="sidebar-item">
+                                <a href="user-dashboard.html" class="sidebar-button d-flex align-items-center">
+                                    <i class="fa-solid fa-gauge-high"></i>
+                                    Bảng điều khiển
+                                </a>
+                            </div>
+                            <div class="sidebar-item">
+                                <a href="#" class="sidebar-button d-flex align-items-center">
+                                    <i class="fa-solid fa-people-arrows"></i>
+                                    Quản lý Đặt chỗ
+                                </a>    
+                            </div>
+                            <div class="sidebar-item">                                
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                        <div class="accordion-item">
+                                            <div class="accordion-header" id="flush-headingOne">
+                                                <a class="sidebar-button accordion-button collapsed active" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    <i class="fa-solid fa-hotel"></i>
+                                                    Quản lý Khách sạn
+                                                </a>
+                                            </div>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSidebar">
+                                                <div class="accordion-body manager-room-body">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Danh sách Khách sạn</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="active">Thêm khách sạn</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingTwo">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <i class="fa-solid fa-umbrella-beach"></i>
+                                                Quản lý Tour
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingThree">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                <i class="fa-solid fa-plane-circle-check"></i>
+                                                Quản lý vé máy bay
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-item">
+                                <div class="accordion accordion-flush" id="accordionFlushSidebar">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="flush-headingFour">
+                                            <a class="sidebar-button accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                <i class="fa-solid fa-car"></i>
+                                                Quản lý Xe thuê
+                                            </a>
+                                        </div>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSidebar">
+                                            <div class="accordion-body manager-room-body">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">Danh sách Tour</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Thêm Tour</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dashboard-main">
+                        <div class="dashboard-content">
+                            <div class="dashboard-title pb-50">
+                                <h4>Danh sách khách sạn</h4>
+                            </div>
+                            <div class="row y-gap-30">
+                                <div class="col-xxl-12">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <div class="form">
+                                                    <label class="text-16-b mb-10">
+                                                        Tỉnh thành
+                                                    </label>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected>Việt Nam</option>
+                                                        <option value="1">Hà Nội</option>
+                                                        <option value="2">Hồ Chí Minh</option>
+                                                        <option value="3">An Giang</option>
+                                                        <option value="3">Bạc Liêu</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="form">
+                                                    <label class="text-16-b mb-10">
+                                                        Tên khách sạn
+                                                    </label>
+                                                    <input class="form-control form-control-lg" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <label></label>
+                                                <div class="button-search">
+                                                    <button class="btn-search" type="submit"><i class="fa-solid fa-magnifying-glass ic-16-white"></i> Tìm kiếm</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row y-gap-30">
+                                <div class="col-xxl-12">
+                                    <div class="db-topbar">
+                                        <div class="row">
+                                            <div class="col-xxl-6">
+                                                <div class="db-sort">
+                                                    <select class="form-select">
+                                                        <option selected>20</option>
+                                                        <option value="1">30</option>
+                                                        <option value="2">40</option>
+                                                        <option value="3">50</option>
+                                                    </select>
+                                                    Entries per page
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-6">
+                                                <div class="row justify-flex-end">
+                                                    <div class="col-xxl-6 w-30">
+                                                        <div class="input-group">
+                                                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                                            <input type="text" class="form-control" placeholder="Tìm kiếm..." aria-label="Username" aria-describedby="basic-addon1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xxl-6 w-30">
+                                                        <div class="add-room-button">
+                                                            <i class="fa-solid fa-square-plus"></i>
+                                                            Thêm khách sạn
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row y-gap-30">
+                                <div class="col-xxl-12">
+                                    <div class="bg-white rounded-5 pd-30">
+                                        <div class="row y-gap-20 d-flex justify-between items-center">
+                                                <table class="table-2 col-12">
+                                                    <thead class="">
+                                                      <tr>
+                                                        <th>ID</th>
+                                                        <th>Tên khách sạn</th>
+                                                        <th>Địa chỉ</th>
+                                                        <th>Loại</th>
+                                                        <th>Khoảng giá</th>
+                                                        <th>Actions</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>                                  
+                                                      <tr>
+                                                        <td>#1</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#2</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#3</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#4</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#5</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#6</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#7</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#8</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#9td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>#10</td>
+                                                        <td><a href="#" class="fw-500">Mũi Né Bay Resort</a></td>
+                                                        <td>Số 13, Ấu Triệu, Quận Hoàn Kiếm, Hà Nội</td>
+                                                        <td>
+                                                          <div>Khách sạn</div>
+                                                        </td>
+                                                        <td>Từ 500K - 1.2 Triệu</td>
+                                                        <td>
+                                                            <a href="4-add-room.html" class="add-room-button">
+                                                                <i class="fa-solid fa-square-plus"></i>
+                                                                Thêm phòng
+                                                            </a>
+                                                        </td>
+                                                      </tr>
+                                  
+                                                    </tbody>
+                                                </table>                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="footer-dashboard">
+                            <div class="footer_row row items-center justify-between">
+                              <div class="col-auto">
+                                <div class="row y-gap-20 items-center">
+                                  <div class="col-auto">
+                                    <div class="text-14 lh-14 mr-30">©2022 goStay. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO</div>
+                                  </div>
+                                </div>
+                              </div>                  
+                              <div class="col-auto">
+                                <div class="d-flex x-gap-5 y-gap-5 items-center">
+                                  <a class="text-14 fw-500 underline">English (US)</a>
+                                  <a class="text-14 fw-500 underline">USD</a>
+                                </div>
+                              </div>
+                            </div>
+                        </footer>
+                    </div>
+            </div>
+        </div>
+
+    
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js?v=7" ></script>   
+    <script src="assets/js/chart.js?v=3"></script>
+    <script src="assets/js/map-picker.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"></script>
+    
+</body>
+
+</html>

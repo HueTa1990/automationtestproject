@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body class="mobile-layout"> 
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header-mobile navbar-area">
+        <div class="header-mobile-content">
+                <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fa-solid fa-bars ic-20"></i>
+                </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                    <ul>
+                        <li><a href="index-mobile.html" class="text-14-gray">Trang Chủ</a></li>
+                        <li><a href="hotel-listing-mobile.html" class="text-14-gray">Khách Sạn</a></li>
+                        <li><a href="flight-listing-departure-mobile.html" class="text-14-gray">Vé Máy Bay</a></li>
+                        <li><a href="tour-listing-mobile.html" class="text-14-gray">Tour Du Lịch</a></li>
+                        <li><a href="#" class="text-14-gray">Điểm Đến</a></li>
+                        <li><a href="#" class="text-14-gray">Khuyến Mãi</a></li>
+                        <li><a href="#" class="text-14-gray">Tin Tức</a></li>
+                        <li><a href="#" class="text-14-gray">Liên Hệ</a></li>
+                        <li><p class="text-14-gray pt-15">Hỗ trợ khách hàng 24/7</p></li>
+                        <li><p class="text-14-gray pt-15">Điện thoại: <span class="text-16-primary-i">19002167</span> / Hotline: <span class="text-16-primary-i">056.728.8999</span></p></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-logo">
+                <a href="index-mobile.html">
+                    <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                </a>
+            </div>
+            <button class="btn btn-primary mobile-menu-btn1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                <i class="fa-solid fa-magnifying-glass ic-20"></i>
+                </button>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        <div class="panel-collapse-custom">
+                            <div class="panel-collapse-custom-child">
+                                <div>
+                                    <div class="form-control-parent">
+                                        <div class="form-input-close">
+                                            <button class="button-close-menu" data-bs-toggle="collapse" data-bs-target="#collapseExample1" type="button" aria-label="close"><span><svg width="24" height="24" fill="none" style="font-size: 24px;"><path d="M18 6L6 18M6 6l12 12" stroke="#1A202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></button>
+                                            <div class="form-input-mobile">
+                                                <input class="form-control form-control-collapse" type="text" placeholder="Nhập tên địa điểm, khách sạn, điểm đến..."> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="latest-search">
+                                        <div class="search-divide mb-20"></div>
+                                        <h3 class="text-16">Tìm kiếm gần đây</h3>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Đà Nẵng</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khu Nghỉ Salinda Phú Quốc (Salinda Resort Phu Quoc Island)</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Premier Residences Phú Quốc Emerald Bay</a>
+                                        </div>
+                                        <div class="latest-search-content mt-10">
+                                            <i class="fa-regular fa-clock ic-12"></i>
+                                            <a class="text-14-gray">Khách Sạn Stella Maris Beach Đà Nẵng</a>
+                                        </div>
+                                        <a href="#" class="text-14-blue mt-10">Xóa lịch sử tìm kiếm</a>
+                                    </div>
+                                </div>   
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <section class="search-fitler-breadcrumns">
+        <div class="promotion-title-mb">
+            <div class="container">
+                <h3 class="wow fadeInUp" data-wow-delay=".5s">Ưu đãi hôm nay</h3>
+                <p class="wow fadeInUp" data-wow-delay=".3s">Các chương trình ưu đãi hằng ngày và khuyến mãi đặc biệt đến từ goStay</p>
+            </div>
+        </div>
+        <div class="hotel-search-fitler overlay">
+            <img data-src="assets/images/filter-background/filter-background.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+        </div>      
+    </section>
+
+    <div class="listing-page">
+        <div class="container mt-30">
+                    <div class="title-hotel-result-page">
+                        <h3>Chương trình ưu đãi</h3>
+                    </div>
+                    <div class="row row-col-12 hotel-content">
+                        <div class="col-12 main-content-listing">
+                            <div class="filter-topbar">
+                                    <div class="tab-filter-top">
+                                        <button class="filtertop" onclick="openFilter(event, 'hotel')" id="defaultOpen">Khách sạn</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'plane')">Vé máy bay</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'tour')">Tour du lịch</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'combo')">Combo</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'cars')">Xe đưa đón</button>
+                                    </div>
+                            </div>
+                            <div class="promotion_listing">
+                                    <div id="hotel" class="content_listing_page content_listing_page_2">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12 mt-30">
+                                                <div class="promotion-grid-mb">
+                                                        <div class="image">
+                                                            <a href="promotion-detail-plane-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/bamboo2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <div class="top-content">
+                                                                <h3 class="title">
+                                                                    <a href="promotion-detail-plane-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                                </h3>
+                                                                <ul class="info-list">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <a href="promotion-detail-plane-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12 mt-30">
+                                                <div class="promotion-grid-mb">
+                                                    <div class="image">
+                                                        <a href="promotion-detail-tour-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/tour.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="promotion-detail-tour-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                            </h3>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="promotion-detail-tour-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12 mt-30">
+                                                <div class="promotion-grid-mb">
+                                                    <div class="image">
+                                                        <a href="promotion-detail-plane-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/banner-vietjet.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="promotion-detail-plane-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                            </h3>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="promotion-detail-plane-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12 mt-30">
+                                                <div class="promotion-grid-mb">
+                                                        <div class="image">
+                                                            <a href="promotion-detail-plane-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/bamboo-airway.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <div class="top-content">
+                                                                <h3 class="title">
+                                                                    <a href="promotion-detail-plane-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                                </h3>
+                                                                <ul class="info-list">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <a href="promotion-detail-plane-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12 mt-30">
+                                                <div class="promotion-grid-mb">
+                                                    <div class="image">
+                                                        <a href="promotion-detail-tour-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/weeken_sale.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="promotion-detail-tour-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                            </h3>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="promotion-detail-tour-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12 mt-30 mb-30">
+                                                <div class="promotion-grid-mb">
+                                                    <div class="image">
+                                                        <a href="promotion-detail-plane-mobile.html"  class="thumbnail"><img data-src="assets/images/promotion/vietnamairline.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII="alt="#"></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="promotion-detail-plane-mobile.html">Rộn ràng Du lịch mùa lễ hội - Khách sạn giảm đến 200K</a>
+                                                            </h3>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="promotion-detail-plane-mobile.html" class="btn-view-more">Xem chi tiết <i class="fa-solid fa-arrow-right-long"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="plane" class="content_listing_page">
+                                    </div>
+                                    <div id="tour" class="content_listing_page">
+                                    </div>
+                                    <div id="combo" class="content_listing_page">
+                                    </div>
+                                    <div id="cars" class="content_listing_page">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-hotel-result-page">
+                        <h3>Mã giảm giá dành cho bạn</h3>
+                    </div>
+                    <div class="promotion-code-parent-mb">
+                            <div class="card_promotion">
+                                <div class="main_image_promotion">
+                                    <div class="co-img">
+                                    <img data-src="assets/images/mall/brand-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt=""/>
+                                    </div>
+                                    <div class="vertical"></div>
+                                    <div class="promotion_content">
+                                    <h2>Giảm giá lên đến</h2>
+                                    <h1>20%</h1>
+                                    <p>HSD: 31/12/2022</p>
+                                    </div>
+                                </div>
+                                <div class="copy-button">
+                                    <input id="copyvalue" type="text" readonly value="HOTEL10" />
+                                    <button class="copybtn">COPY</button>
+                                </div>
+                            </div>
+                            <div class="card_promotion">
+                                <div class="main_image_promotion">
+                                    <div class="co-img">
+                                    <img data-src="assets/images/mall/brand-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt=""/>
+                                    </div>
+                                    <div class="vertical"></div>
+                                    <div class="promotion_content">
+                                    <h2>Giảm giá lên đến</h2>
+                                    <h1>20%</h1>
+                                    <p>HSD: 31/12/2022</p>
+                                    </div>
+                                </div>
+                                <div class="copy-button">
+                                    <input id="copyvalue" type="text" readonly value="HOTEL10" />
+                                    <button class="copybtn">COPY</button>
+                                </div>
+                            </div>
+                            <div class="card_promotion">
+                                <div class="main_image_promotion">
+                                    <div class="co-img">
+                                    <img data-src="assets/images/mall/brand-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt=""/>
+                                    </div>
+                                    <div class="vertical"></div>
+                                    <div class="promotion_content">
+                                    <h2>Giảm giá lên đến</h2>
+                                    <h1>20%</h1>
+                                    <p>HSD: 31/12/2022</p>
+                                    </div>
+                                </div>
+                                <div class="copy-button">
+                                    <input id="copyvalue" type="text" readonly value="HOTEL10" />
+                                    <button class="copybtn">COPY</button>
+                                </div>
+                            </div>
+                    </div>
+        </div>
+    </div>
+
+    <div class="footer-mobile mt-20 mb-20 pt-20">
+        <div class="mobile-logo-footer">
+            <a href="index-mobile.html">
+                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+            </a>
+        </div>
+        <div class="line-horizontal-1"></div>
+        <div class="swipe-footer-links">
+            <div class="mb-ft-links">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <h3 class="text-16">Các khách sạn hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Khách sạn tại Hà Nội</a></li>
+                                    <li><a href="#">Khách sạn tại Hải Phòng</a></li>
+                                    <li><a href="#">Khách sạn tại Hạ Long</a></li>
+                                    <li><a href="#">Khách sạn tại Huế</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Bình</a></li>
+                                    <li><a href="#">Khách sạn tại Đà Nẵng</a></li>
+                                    <li><a href="#">Khách sạn tại Quảng Nam</a></li>
+                                    <li><a href="#">Khách sạn tại Nha Trang</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Khách sạn tại Đà Lạt</a></li>
+                                    <li><a href="#">Khách sạn tại Phan Thiết</a></li>
+                                    <li><a href="#">Khách sạn tại Bà Rịa - Vũng Tàu</a></li>
+                                    <li><a href="#">Khách sạn tại Phú Quốc</a></li>
+                                    <li><a href="#">Khách sạn tại Cần Thơ</a></li>
+                                    <li><a href="#">Khách sạn tại Bắc Kạn</a></li>
+                                    <li><a href="#">Khách sạn tại Hà Giang</a></li>
+                                    <li><a href="#">Khách sạn tại Sa Pa</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <h3 class="text-16">Chuyến bay & Chặng bay hàng đầu</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <div class="ft-cls">
+                                <ul class="ft-cls-1 pt-10">
+                                    <li><a href="#">Chuyến bay đến Hà Nội</a></li>
+                                    <li><a href="#">Chuyến bay đến Hồ Chí Minh</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Nẵng</a></li>
+                                    <li><a href="#">Chuyến bay đến Nha Trang</a></li>
+                                    <li><a href="#">Chuyến bay đến Hải Phòng</a></li>
+                                    <li><a href="#">Chuyến bay đến Đà Lạt</a></li>
+                                    <li><a href="#">Chuyến bay đến Phú Quốc</a></li>
+                                    <li><a href="#">Chuyến bay đến Quy Nhơn</a></li>
+                                </ul>
+                                <ul class="ft-cls-2 pt-10">
+                                    <li><a href="#">Chặng Hà Nội - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Tân Sơn Nhất - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Quy Nhơn</a></li>
+                                    <li><a href="#">Chặng Đà Nẵng - Tân Sơn Nhất</a></li>
+                                    <li><a href="#">Chặng Thanh Hóa - Hà Nội</a></li>
+                                    <li><a href="#">Chặng Hà Nội - Nha Trang</a></li>
+                                    <li><a href="#">Chặng Hà Nội - TP Vinh</a></li>
+                                    <li><a href="#">Chặng Huế - Tân Sơn Nhất</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h3 class="text-16">Tour du lịch</h3>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <div class="accordion-body">
+                                <div class="ft-cls">
+                                    <ul class="ft-cls-1 pt-10">
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+                                    </ul>
+                                    <ul class="ft-cls-2 pt-10">
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                
+
+            </div>
+            <div class="line-horizontal-1"></div>
+            <div class="address-mobile-footer">
+                <h3 class="text-16">SGO Travel - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                <ul class="footer-address pt-10">
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                    <li><a href="#" class="text-14-gray"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                </ul>
+            </div>
+            <div class="mb-social-ft">
+                <h3 class="text-16">Kết nối với chúng tôi</h3>
+                <ul class="footer-social pt-10">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="mb-payment-ft">
+                <h3 class="text-16">Chấp nhận thanh toán</h3>
+                <ul class="payment pt-10">
+                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                </ul>
+            </div>
+            <div class="mb-copyright-ft">
+                <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO Travel. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                <div class="footter-botom-image">
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                    <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+        
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/fitler-topbar.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tab-search.js" defer></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+
+</body>
+
+</html>
