@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- /End Preloader -->
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="index.html" aria-label="Toggle navigation">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="hotel-listing.html"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Tour</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Khuyến mãi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="become">
+                                <a href="#">Become a GoStay</a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="click-drop-menu">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+                                    <div class="click-drop-avata">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginform">
+                                            Đăng nhập
+                                            </button>
+                                        </div>                                            
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginverify">
+                                                Xác thực đăng nhập
+                                            </button> 
+                                        </div>                                       
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginformemail">
+                                                Đăng nhập Email
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#registeremail">
+                                                Đăng ký
+                                            </button>
+                                        </div>      
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification">
+                                                Notification
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification-1">
+                                                Notification 1
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <div>
+                                                <a href="listing-wislist.html" class="btn-login-custom">
+                                                    Danh sách yêu thích
+                                                </a>
+                                            </div>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Hỗ trợ
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Cộng tác viên
+                                            </button>
+                                        </div>  
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+        
+    <!-- Start Searh Form Area -->
+    <section class="search-fitler-breadcrumns">
+        <div class="search-filter-inner">
+            <div class="container">
+                <div class="hotel-search-form">
+                    <div class="row search-filter1 align-items-center">
+                        <div class="col-12 p-0">
+                                <!-- Start Search Form -->
+                                <div class="search">
+                                    <div class="search-form">
+                                        <div class="row margin-zero">
+                                            <div class="search-location col-xxl-4 col-xl-4 col-lg-4 col-md-12 mb-mobile-30-1">      
+                                                <input type="text" class="form-control" id="txtInputTourSearch" placeholder="Thành phố, khách sạn, điểm đến..."> 
+                                            </div>
+                                            <div class="select-date2 col-xxl-4 col-xl-4 col-lg-4 col-md-6 bd-left mb-mobile-30-1">   
+                                                <div class="col">
+                                                    <div class="title-location">
+                                                        Ngày khởi hành
+                                                    </div>
+                                                    <div class="input-location">
+                                                        <input type="text" class="form-control" id="txtInputTourDateSearch" placeholder="T2, 19 tháng 9"> 
+                                                    </div>
+                                                </div>    
+                                            </div>
+                                            <div class="select-room col-xxl-4 col-xl-4 col-lg-4 col-md-6 bd-left mb-mobile-30-1">      
+                                                <div class="col-8" >     
+                                                    <div class="title-location">
+                                                        Số khách
+                                                    </div>
+                                                    <div class="input-location">
+                                                        <input type="text" class="form-control" id="txtInputTourPerson" placeholder="10 người lớn, 2 trẻ em"> 
+                                                    </div>
+                                                </div> 
+                                                <div class="col-4" >     
+                                                    <div class="button-search">
+                                                        <button class="btn-search"><a href="tour-listing.html" ><i class="fa-solid fa-magnifying-glass ic-16-white"></i></a></button>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div>
+                                <div id="result_search_tour">
+                                    <div class="result-room drop-location-tour-index">
+                                        <h3 class="text-16-b">Địa điểm nổi bật</h3>
+                                        <div class="popular-location row">
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/phu-quoc.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Phú Quốc</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/nha-trang.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Nha Trang</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/da-lat.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Đà Lạt</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/da-nang.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Đà Nẵng</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/ninh-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Ninh Bình</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/sapa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Sa Pa</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/hoa-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Hòa Bình</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/ha-long.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Hạ Long</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/moc-chau.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Mộc Châu</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/thanh-hoa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Thanh Hóa</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/ha-noi.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Hà Nội</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 mt-20">
+                                                <div class="img-location">
+                                                    <a href="#"><img data-src="assets/images/location/hue.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                </div>
+                                                <div class="title-location1">    
+                                                    <a href="#">Huế</a>
+                                                    <p>16 Tour</p>
+                                                </div>
+                                            </div>
+                                        </div>     
+                                    </div>
+                                </div>
+                                <div id="result_search_tour_date"> 
+                                    <div class="drop-select-tour-date">
+                                            <div class="drop-date date-selection">
+                                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
+                                                    <div class="calendar calendar-first" id="calendar_first">
+                                                      <div class="calendar_header">
+                                                        <button class="switch-month switch-left">
+                                                          <i class="fa fa-chevron-left"></i>
+                                                        </button>
+                                                        <h2></h2>
+                                                      </div>
+                                                      <div class="calendar_weekdays"></div>
+                                                      <div class="calendar_content"></div>
+                                                    </div>                               
+                                                </div>
+                                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">                                
+                                                    <div class="calendar calendar-second" id="calendar_second">
+                                                      <div class="calendar_header">
+                                                        <h2></h2>
+                                                        <button class="switch-month switch-right">
+                                                          <i class="fa fa-chevron-right"></i>
+                                                        </button>
+                                                      </div>
+                                                      <div class="calendar_weekdays"></div>
+                                                      <div class="calendar_content"></div>
+                                                    </div>            
+                                
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div id="result_search_tour_person">           
+                                    <div class="result_search_tour select-tour-parent">
+                                            <div class="select-tour-person">
+                                                    <h3>Số khách</h3>
+                                                    <div class="family-room room">
+                                                            <div class="family-title">
+                                                                Người lớn(từ 12 tuổi)
+                                                            </div>
+                                                            <div class="family-quality">
+                                                            <span><i class="fa-solid fa-minus"></i></span>1
+                                                            <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>
+                                                    <div class="family-room person">
+                                                            <div class="family-title">
+                                                                Trẻ em(2-11 tuổi)
+                                                            </div>
+                                                            <div class="family-quality">
+                                                                <span><i class="fa-solid fa-minus"></i></span>1
+                                                                <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>
+                                                    <div class="family-room child">
+                                                            <div class="family-title">
+                                                                Em bé( Bé hơn 2 tuổi)
+                                                            </div>
+                                                            <div class="family-quality">
+                                                                <span><i class="fa-solid fa-minus"></i></span>2
+                                                                <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>                   
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- End Search Form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotel-search-fitler overlay">
+            <img data-src="assets/images/slider/bg-slider.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+        </div>      
+    </section>
+    <!-- /End Searh Form Area -->
+
+    <!-- Breadcrumns -->
+    <div class="breadcrumns">
+        <div class="container">
+            <div class="breadcrumns-1 mt-20 mb-30">
+                <div class="row">
+                  <div class="col-auto br-parent">
+                    <div class="">Trang chủ</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="">Tour</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="color-primary">Đà Nẵng</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+   <!-- End Breadcrumns -->
+
+    <!-- Search Hotel Listing Pages -->
+    <div class="listing-page wow fadeInUp" data-wow-delay=".3s">
+        <div class="hotel-result-page">
+                <div class="container">
+                    <div class="title-hotel-result-page">
+                        <h3>26 Tour du lịch tại Đà Nẵng</h3>
+                    </div>
+                    <div class="row row-col-12 hotel-content">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-12 left-sidebar">
+                            <div class="hotel-filter-sidebar">
+                                <div class="title-filter-sidebar">
+                                    <h4>Bộ lọc</h4>
+                                    <a href="#">Xóa tất cả lọc</a>
+                                </div>
+                                <div class="filter-sidebar price">
+                                    <a>Khoảng giá</a>
+                                    <p>0đ - 5.000.000+ đ</p>
+                                    <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                                </div>
+                                <div class="filter-sidebar user-review-sidebar">
+                                    <a>Người dùng đánh giá</a>
+                                    <div class="parent">
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Tuyệt vời (9.0+)
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Rất tốt (8.0+)
+                                            </label>
+                                        </div> 
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Tốt (7.0+)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-sidebar hotel-type">
+                                    <a>Loại tour</a>
+                                    <div class="parent">
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                6 Ngày 5 đêm
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                5 Ngày 4 đêm
+                                            </label>
+                                        </div> 
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                4 Ngày 3 đêm
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                3 Ngày 2 đêm
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                2 Ngày 1 đêm
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                1 Ngày 1 đêm
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-sidebar region">
+                                    <a>Theo khu vực</a>
+                                    <div class="parent">
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Quận Liên Chiểu
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Quận Sơn Trà
+                                            </label>
+                                        </div> 
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Quận Ngũ Hành Sơn
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Quận Cẩm Lệ
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Quận Hải Châu
+                                            </label>
+                                        </div>
+                                        <div class="load-more-sidebar">
+                                            <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-sidebar1 extra-services">
+                                    <a>Chủ đề</a>
+                                    <div class="parent">
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Nghỉ dưỡng
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Vui chơi, khám phá
+                                            </label>
+                                        </div> 
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Du lịch tâm linh
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Xuyên Việt
+                                            </label>
+                                        </div>
+                                        <div class="form-check filter-child">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Tour Miền Tây
+                                            </label>
+                                        </div>
+                                        <div class="load-more-sidebar">
+                                            <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-12 main-content-listing">
+                            <div class="filter-topbar">
+                                    <div class="tab-filter-top">
+                                        <p>Sắp xếp:</p>
+                                        <button class="filtertop" onclick="openFilter(event, 'best_fit')" id="defaultOpen">Phù hợp nhất</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'cheapest')">Rẻ nhất</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'expensive')">Đắt nhất</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'rating')">Xếp hạng sao</button>
+                                        <button class="filtertop" onclick="openFilter(event, 'best_rate')">Đánh giá cao nhất</button>
+                                    </div>
+                            </div>
+                            <div class="content_listing">
+                                    <div id="best_fit" class="content_listing_page">
+                                        <div class="content_grid_page">
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/pq-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-4.jpg" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-1.jpg" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-2.jpg" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>
+                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-3.jpg" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-4.jpg" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col pb-mb-50">
+                                                <div class="single-grid">
+                                                    <div class="image">
+                                                        <div class="swiper mySwiper7">
+                                                            <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="assets/images/tour/tour-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                              <div class="swiper-slide">
+                                                                <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                              </div>
+                                                            </div>
+                                                            <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                        </div>                                                        <div class="top-info">
+                                                            <div class="heart">
+                                                                <a href="javascript:void(0)"><i class="fa-regular fa-heart"></i></a>
+                                                            </div>
+                                                            <div class="label">
+                                                                <ul class="label_review">
+                                                                    <li><a href="javascript:void(0)"><i class="fa-solid fa-umbrella"></i>9.6</a></li>
+                                                                </ul>
+                                                                <ul class="text_review">
+                                                                    <li><a href="javascript:void(0)">Tuyệt vời</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="top-content">
+                                                            <h3 class="title">
+                                                                <a href="tour-detail.html">Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</a>
+                                                            </h3>
+                                                            <ul class="rating">
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                            <ul class="info-list">
+                                                                <li><a href="javascript:void(0)"><i class="fa-solid fa-plane-departure"></i>Khởi hành: Hà Nội</a></li>
+                                                                <li><a href="javascript:void(0)"><i class="fa-regular fa-clock"></i>22/09/2022 - 6N5Đ - Giờ đi: 13:40</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="bottom-content-tour">
+                                                            <p class="base_price"><span>8.056.279đ</span></p>
+                                                            <p class="price"><span>6.003.465đ</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <hr>                                       
+                                        <div class="button-loadmore2 mt-30 pt-mb-30">
+                                                <button class="loadmore" tabindex="0" type="button">Xem thêm 366 Tour <i class="fa-solid fa-arrow-right-long"></i>
+                                                </button>
+                                        </div>
+                                    </div>
+                                    <div id="cheapest" class="content_listing_page">
+                                    </div>
+                                    <div id="expensive" class="content_listing_page">
+                                    </div>
+                                    <div id="rating" class="content_listing_page">
+                                    </div>
+                                    <div id="best_rate" class="content_listing_page">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+    </div>
+    <!-- End Search Hotel Listing Pages -->
+    
+    <!-- Start Newsletter Area -->
+    <div class="newsletter">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-6">
+                        <div class="title">
+                            <a href="#"><img data-src="assets/images/newsletter/icon.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <h3>Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé máy bay?</h3>
+                            <p class="items-grid-hidden">Nhập số điện thoại/email để chúng tôi có thể gửi đến bạn những chương trình khuyến mại mới nhất!</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-6">
+                        <div class="form">
+                            <form action="#" method="get" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Nhập email của bạn..." type="email">
+                                <div class="button">
+                                    <button class="btn">Đăng ký<span class="dir-part"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Newsletter Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Các khách sạn hàng đầu</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Hạ Long</a></li>
+                                        <li><a href="#">Thừa Thiên Huế</a></li>
+                                        <li><a href="#">Quảng Bình</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Quảng Nam</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phan Thiết</a></li>
+                                        <li><a href="#">Bà Rịa - Vũng Tàu</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Cần Thơ</a></li>
+                                        <li><a href="#">Bắc Kạn</a></li>
+                                        <li><a href="#">Hà Giang</a></li>
+                                        <li><a href="#">Sa Pa</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Chuyến bay & Chặng bay</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hồ Chí Minh</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Quy Nhơn</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Tân Sơn Nhất - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Quy Nhơn</a></li>
+                                        <li><a href="#">Đà Nẵng - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Thanh Hóa - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Nha Trang</a></li>
+                                        <li><a href="#">Hà Nội - TP Vinh</a></li>
+                                        <li><a href="#">Huế - Tân Sơn Nhất</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Tour du lịch</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+        <!-- Start Footer Middle -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">goStay - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                                <ul class="footer-address">
+                                    <li><a href="#"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Kết nối với chúng tôi</h3>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Chấp nhận thanh toán</h3>
+                                <ul class="payment">
+                                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+        <!--/ End Footer Middle -->
+
+        <!-- Start Footer Bottom -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                        </div>
+                        <div class="footter-botom-image">
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!--/ End Footer Area -->
+
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/fitler-topbar.js"></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tab-search.js" defer></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+</body>
+
+</html>

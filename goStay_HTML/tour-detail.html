@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css" />
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="index.html" aria-label="Toggle navigation">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="hotel-listing.html"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Tour</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Khuyến mãi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="become">
+                                <a href="#">Become a GoStay</a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="click-drop-menu">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+                                    <div class="click-drop-avata">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginform">
+                                            Đăng nhập
+                                            </button>
+                                        </div>                                            
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginverify">
+                                                Xác thực đăng nhập
+                                            </button> 
+                                        </div>                                       
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginformemail">
+                                                Đăng nhập Email
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#registeremail">
+                                                Đăng ký
+                                            </button>
+                                        </div>      
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification">
+                                                Notification
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification-1">
+                                                Notification 1
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <div>
+                                                <a href="listing-wislist.html" class="btn-login-custom">
+                                                    Danh sách yêu thích
+                                                </a>
+                                            </div>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Hỗ trợ
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Cộng tác viên
+                                            </button>
+                                        </div>  
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+   
+    <!-- End Header Area -->
+
+    <!-- Breadcrumns -->
+    <div class="breadcrumns">
+        <div class="container">
+            <div class="breadcrumns-1 mt-20 mb-30">
+                <div class="row">
+                  <div class="col-auto br-parent">
+                    <div class="">Trang chủ</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="">Tour</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="">Đà Nẵng</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>                
+                  <div class="col-auto br-parent">
+                    <div class="color-primary">Hà Nội - Đà Nẵng - Hội An 4 Ngày 5 Đêm - Vietnam Airline</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+   <!-- End Breadcrumns -->
+
+   <!-- Hotel Detail-->
+    <section class="tour_detail_parent wow fadeInUp" data-wow-delay=".3s">
+        <div class="container-fluid">
+            <div class="detail-tour-image-parent">
+                <div id="main-carousel-detailTour" class="owl-carousel mt-30 mb-30">
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/tour-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/tour-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/tour-3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/tour-4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/pq-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/pq-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/pq-3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="tour-image">
+                            <img data-src="assets/images/tour/pq-4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>           
+    <section class="description">  
+        <div class="container">
+            <div class="row tour-description mb-40">
+                <div class="col-xxl-9 col-xl-9 mt-30">
+                        <div class="detail-tour-title">
+                            <div class="col hotel-title-left">
+                                <h3>Tour Đà Nẵng - Bà Nà - Hội An- Khách sạn 4* - Vietravel Airlines</h3>
+                                <div class="rating-5-star1">
+                                        <ul class="star">
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        </ul>
+                                </div>                  
+                                <div class="user-review">
+                                    <div class="label2">
+                                        <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                    </div>
+                                    <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                </div>
+                                <div class="sub-title grid-list-region">
+                                    <a href="#">
+                                        <span><i class="fa-solid fa-location-dot"></i></span>
+                                        <span>120 Võ Nguyên Giáp, Phước Mỹ, Võ Nguyên Giáp, Quận Sơn Trà, Đà Nẵng, Việt Nam</span>
+                                        <span class="more-map">Xem trên bản đồ</span>
+                                    </a>
+                                </div>
+    
+                            </div>
+                        </div> 
+                        <div class="col-12 mt-20">
+                            <div class="row advantages-list-tour">
+                                <div class="col-lg-3 col-6">
+                                    <div class="advantages-title">
+                                        <p>Thời lượng Tour</p>
+                                        <a href="#" class="text-16-primary">3 Ngày 2 Đêm</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="advantages-title">
+                                        <p>Loại Tour</p>
+                                        <a href="#" class="text-16-primary">Trong nước</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="advantages-title">
+                                        <p>Quy mô Tour</p>
+                                        <a href="#" class="text-16-primary">20 Người</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="advantages-title">
+                                        <p>Địa điểm</p>
+                                        <a href="#" class="text-16-primary">Đà Nẵng, Hội An</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12" id="overview">
+                                <div class="sticky_nav_tab mt-30 mb-10"> 
+                                    <a class="text-18 active" href="#overview-hotel">Giới thiệu tổng quan</a> 
+                            </div>                                
+                            <div class="nav_tab_content">
+                                    <p class="text-14-gray">
+                                        Đà Nẵng là một trong 20 thành phố sạch nhất thế giới. Nằm ở vùng Nam Trung Bộ, Đà Nẵng có cả núi, đồng bằng và biển. Các điểm tham quan du lịch nổi tiếng khi du lịch Đà Nẵng bao gồm khu du lịch Bà Nà, bãi biển Mỹ Khê, và khu vui chơi giải trí trong nhà Fantasy Park lớn nhất châu Á. Đà Nẵng còn có nhiều thắng cảnh mê hồn như đèo Hải Vân, rừng nguyên sinh ở bán đảo Sơn Trà và Ngũ Hành Sơn. Cùng Mytour khám phá Đà Nẵng ngay hôm nay thôi nào!
+                                    </p>
+                                    <a class="text-16 mt-30">ĐIỂM HẤP DẪN NHẤT:</a>
+                                    <ul>
+                                        <li>Quý khách sẽ được chinh phục Bà Nà Hills, cầu Vàng, Fantasy Park</li>                             
+                                        <li>Vui chơi thỏa sức ở biển Mỹ Khê, nghỉ dưỡng ở suối khoáng nóng Thần Tài</li>                             
+                                        <li>Trải nghiệm cuộc sống bình yên ở Hội An phố cổ</li>                             
+                                        <li>Khách sạn 3 sao hoặc 4 sao chất lượng, tiện nghi và những bữa ăn đặc sản miền Trung hấp dẫn</li>
+                                        <li>...vv</li>                             
+                                    </ul>
+                                    <p class="text-14-gray">
+                                        Hè sắp đến, còn gì tuyệt hơn một kỳ nghỉ tại thiên đường du lịch miền Trung phải không nào? Nhanh tay đặt tour, nhận ngay ưu đãi cực HOT đến từ goStay!                                    </p>
+                                    <div class="click-more">
+                                        <a href="#">Xem thêm <i class="fa-solid fa-chevron-right"></i></a>
+                                    </div>
+                            </div>
+                            <div class="tour-schedule mt-20" id="tour-schedule">
+                                <h3 class="text-18">Lịch trình Tour</h3>
+                                <div class="line-horizontal"></div>
+                                <div class="tour-schedule-content mt-20">
+                                    <ul>
+                                        <li class="time-line-day-1">
+                                            <div class="time-line-tour">
+                                                <div class="time-line-head"></div>
+                                                <div class="time-line-content"></div>  
+                                            </div>
+                                            <div class="content-schedule">
+                                                    <div class="schedule-title text-16 mb-20">Ngày 1 - Tp. Hồ Chí Minh - Đà Nẵng - Hội An (ăn Chiều)</div>
+                                                    <div class="schedule-content">
+                                                        <p class="text-14-gray">Quý khách tập trung tại điểm hẹn, Ga đi trong nước, sân bay Tân Sơn Nhất. Hướng dẫn viên Vietravel hỗ trợ làm thủ tục cho đoàn đáp chuyến bay đi Đà Nẵng. Tại sân bay Đà Nẵng xe và HDV Vietravel đón đoàn đi tham quan: </p>
+                                                        <ul class="text-14-gray">
+                                                            <li>Bán đảo Sơn Trà và viếng Chùa Linh Ứng: Nơi đây có tượng Phật Quan Thế Âm cao nhất Việt Nam, đứng nơi đây, Quý khách sẽ được chiêm ngưỡng toàn cảnh thành phố, núi rừng và biển đảo Sơn Trà một cách hoàn hảo nhất. 
+                                                            </li>                             
+                                                            <li>Ngũ Hành Sơn: Động Tàng Chơn, Động Hoa Nghiêm, Chùa Non Nước,...
+                                                            </li>                             
+                                                            <li>Làng Đá Non Nước Nguyễn Hùng: mua sắm sản phẩm đá mỹ nghệ tạo phong thủy cho tổ ấm hoặc làm quà tặng ý nghĩa cho người thân và bạn bè.
+                                                            </li>                             
+                                                            <li>Phố Cổ Hội An: Chùa Cầu, Nhà Cổ Phùng Hưng, Hội Quán Phước Kiến, Cơ sở Thủ Công Mỹ Nghệ,…Quý khách tự do dạo phố đèn lồng đầy màu sắc, cảm nhận sự yên bình cổ kính và lãng mạn Phố Cổ về đêm,... 
+                                                            </li>
+                                                            <li>Buổi tối quý khách tự do dạo phố ngắm nhìn sự lung linh và phát triển của thành phố …. Nghỉ đêm tại Đà Nẵng. </li>                             
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="time-line-day-1">
+                                            <div class="time-line-tour">
+                                                <div class="time-line-head"></div>
+                                                <div class="time-line-content"></div>  
+                                            </div>
+                                            <div class="content-schedule">
+                                                    <div class="schedule-title text-16 mb-20">Ngày 2 - Đà Nẵng - Khu Du Lịch Bà Nà - Cầu Vàng (ăn Sáng, Chiều, Trưa Tự Túc).</div>
+                                                    <div class="schedule-content">
+                                                        <p class="text-14-gray">Dùng bữa sáng tại khách sạn. Xe đưa Quý khách đi tham quan:</p>
+                                                        <ul class="text-14-gray">
+                                                            <li>Khu du lịch Bà Nà (chi phí cáp treo & Ăn trưa tự túc): tận hưởng không khí se lạnh của Đà Lạt tại miền Trung, đoàn tự do tham quan Chùa Linh Ứng, Hầm Rượu Debay, vườn hoa Le Jardin D’Amour, Khu Tâm linh mới của Bà Nà viếng Đền Lĩnh Chúa Linh Từ, khu vui chơi Fantasy Park, tự do chụp hình tại Cầu Vàng điểm tham quan mới siêu hot tại Bà Nà…Ăn trưa tại Bà Nà tự túc. Sau đó đoàn tiếp tục tham quan vui chơi đến giờ xuống cáp. 
+                                                            </li>                             
+                                                            <li>Bãi biển Mỹ Khê: Một trong những bãi biển quyến rũ nhất hành tinh. Quý khách tự do dạo biển, chụp hình....
+                                                            </li>
+                                                            <li>Buổi tối Quý khách tự túc đi dạo phố, thưởng thức đặc sản địa phương; thưởng ngoạn cảnh đẹp của Đà Nẵng về đêm, ngắm nhìn Cầu Rồng, Cầu Tình Yêu, Cầu Trần Thị Lý, Trung Tâm Thương Mại, Khu phố ẩm thực, Café - Bar - Disco… Nghỉ đêm tại Đà Nẵng.
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="time-line-day-1">
+                                            <div class="time-line-tour">
+                                                <div class="time-line-head"></div>
+                                                <div class="time-line-content"></div>  
+                                            </div>
+                                            <div class="content-schedule">
+                                                    <div class="schedule-title text-16 mb-20">Ngày 3 - Đà Nẵng - Tp. Hồ Chí Minh (ăn Sáng).</div>
+                                                    <div class="schedule-content">
+                                                        <p class="text-14-gray">Dùng bữa sáng tại khách sạn. Xe tiễn Quý khách ra sân bay Đà Nẵng đón chuyến bay trở về Tp.Hồ Chí Minh. Chia tay Quý khách và kết thúc chương trình du lịch tại sân bay Tân Sơn Nhất
+                                                        </p>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="conditions mt-40">
+                                                 <div class="content-schedule">
+                                                    <div class="schedule-title text-16-primary-italic mb-20">Điều kiện nhận khách trong giai đoạn "Bình thường mới" 
+                                                    </div>
+                                                    <div class="schedule-content">
+                                                        <ul class="text-14-gray">
+                                                            <li>Thẻ xanh covid (khách đã tiêm vaccines ngừa covid đủ liều, thời gian hoàn tất mũi 2 trước 14 ngày và không quá 12 tháng) hoặc Quý khách có giấy xác nhận đã khỏi bệnh trong vòng 6 tháng.
+                                                            </li>
+                                                            <li>Xét nghiệm covid theo yêu cầu của Tỉnh và Phường nơi khách lưu trú (nếu có) trước khi vào khách sạn (bao gồm cả người lớn và trẻ em dưới 18 tuổi). Chi phí xét nghiệm covid theo yêu cầu của từng địa phương quý khách tự thanh toán và không bao gồm trong giá tour.
+                                                            </li>
+                                                            <li>Đảm bảo nguyên tắc 5K, khử khuẩn. Tuân thủ ngồi giãn cách trên xe và đeo khẩu trang suốt quá trình di chuyển.
+                                                            </li>
+                                                            <li>Trong trường hợp trong đoàn có phát sinh ca nghi nhiễm/nhiễm covid 19, khách hàng (bao gồm cả các trường hợp được xác định là F1) có trách nhiệm phối hợp với Vietravel và chính quyền địa phương để thực hiện các biện pháp cách ly/ điều trị theo quy định.
+                                                            </li>
+                                                            <li>Các chi phí phát sinh trong quá trình cách ly điều trị, bao gồm nhưng không giới hạn các chi phí xét nghiệm, cách ly y tế, vận chuyển, lưu trú, điều trị, chi phí cá nhân khác… sẽ không nằm trong chi phí tour và khách hàng tự chịu trách nhiệm chi trả.
+                                                            </li>
+                                                            <li>Ngày khởi hành tour có thể thay đổi theo tình hình kiểm soát dịch của từng địa phương nhằm đảm bảo an toàn cho du khách.</li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li class="conditions mt-40">
+                                            <div class="content-schedule">
+                                               <div class="schedule-title text-16-primary-italic mb-20">Lưu ý 
+                                               </div>
+                                               <div class="schedule-content">
+                                                   <ul class="text-14-gray">
+                                                        <li>Hành trình có thể thay đổi thứ tự điểm đến tùy vào điều kiện thực tế. 
+                                                        </li>
+                                                        <li>Lịch trình tham quan (tắm biển, ngắm hoa, trải nghiệm,...) rất dễ bị ảnh hưởng bởi thời tiết. Đây là trường hợp bất khả kháng mong Quý khách hiểu và thông cảm.
+                                                        </li>
+                                                        <li>Khách Sạn có thể ở xa trung tâm thành phố vào các mùa Cao Điểm</li>
+                                                   </ul>
+                                               </div>
+                                            </div>
+                                        </li>
+                                        <li class="text-16-primary">***KẾT THÚC CHƯƠNG TRÌNH – TẠM BIỆT QUÝ KHÁCH*** 
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tour-policies-parent mt-20" id="tour-policies">
+                                <h3 class="text-18">Chính sách Tour</h3>
+                                <div class="line-horizontal"></div>
+                                <div class="detail-tour-policies">
+                                    <div class="accordion accordion-flush accordion-custom" id="accordionFlushTour">
+                                        <div class="accordion-custom-left">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingOne">
+                                                  <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                      Giá tour bao gồm
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushTour" style="">
+                                                  <div class="accordion-body accordion-body-custom">
+                                                      Vận chuyển: du lịch đời mới, đưa đón theo chương trình. Lái xe thân thiện và cẩn thận suốt hành trình.
+                                                      Ăn sáng, Ăn trưa, Ăn tối theo chương trình.
+                                                      Nghỉ đêm tại khách sạn 3 sao trung tâm, 2 người/phòng.
+                                                      Hướng dẫn viên chuyên nghiệp, chu đáo suốt chương trình
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTwo">
+                                                  <button class="accordion-button accordion-button-custom collapsed mt-10" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                      Giá tour không bao gồm
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushTour">
+                                                  <div class="accordion-body accordion-body-custom ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree">
+                                                  <button class="accordion-button accordion-button-custom collapsed mt-10" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                      Giá tour trẻ em
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushTour">
+                                                  <div class="accordion-body accordion-body-custom">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                </div>
+                                              </div>
+                                        </div>
+                                        <div class="accordion-custom-right">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingOne-1">
+                                                  <button class="accordion-button accordion-button-custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-1" aria-expanded="false" aria-controls="flush-collapseOne-1">
+                                                      Giá tour bao gồm
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseOne-1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne-1" data-bs-parent="#accordionFlushTour" style="">
+                                                  <div class="accordion-body accordion-body-custom">
+                                                      Vận chuyển: du lịch đời mới, đưa đón theo chương trình. Lái xe thân thiện và cẩn thận suốt hành trình.
+                                                      Ăn sáng, Ăn trưa, Ăn tối theo chương trình.
+                                                      Nghỉ đêm tại khách sạn 3 sao trung tâm, 2 người/phòng.
+                                                      Hướng dẫn viên chuyên nghiệp, chu đáo suốt chương trình
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTwo-2">
+                                                  <button class="accordion-button accordion-button-custom collapsed mt-10" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-2" aria-expanded="false" aria-controls="flush-collapseTwo-2">
+                                                      Giá tour không bao gồm
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo-2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo-2" data-bs-parent="#accordionFlushTour">
+                                                  <div class="accordion-body accordion-body-custom">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree-3">
+                                                  <button class="accordion-button accordion-button-custom collapsed mt-10" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree-3" aria-expanded="false" aria-controls="flush-collapseThree-3">
+                                                      Giá tour trẻ em
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseThree-3" class="accordion-collapse collapse" aria-labelledby="flush-headingThree-3" data-bs-parent="#accordionFlushTour">
+                                                  <div class="accordion-body accordion-body-custom">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                </div>
+                                              </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 hotel-review-parent" id="tour-reviews">
+                            <h3 class="text-18">Đánh giá</h3>
+                            <p class="text-14-3">100% đánh giá từ khách hàng đặt Tour trên goStay</p>
+                            <div class="user-reviews">
+                                <div class="user-reviews-range">
+                                    <div class="range-left">
+                                        <div class="range-circle">                                        
+                                        </div>
+                                        <div class="range-left-text">
+                                            <div class="text-40">9.2</div>
+                                            <div class="text-18">Tuyệt vời</div>
+                                        </div>
+                                    </div>
+                                    <div class="range-center">
+                                        <div class="rating-range-parent">
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Tuyệt vời</div>                                        
+                                                    <div>128</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Rất tốt</div>                                        
+                                                    <div>89</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Tốt</div>                                        
+                                                    <div>18</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 8%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Trung bình</div>                                        
+                                                    <div>8</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 4%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Kém</div>                                        
+                                                    <div>6</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 2%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div class="range-right">
+                                        <div class="rating-range-parent">
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Vị trí</div>                                        
+                                                    <div>9.6</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Giá cả</div>                                        
+                                                    <div>9.4</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Phục vụ</div>                                        
+                                                    <div>9.5</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 72%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Vệ sinh</div>                                        
+                                                    <div>9.6</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="text-14 rating-range">
+                                                    <div>Tiện nghi</div>                                        
+                                                    <div>9.6</div>
+                                                </div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-reviews-comment">
+                                    <h3 class="text-16">Người dùng đánh giá</h3>
+                                    <div class="filter-center">
+                                        <div class="tab-filter-center">
+                                            <button class="filtercenter" onclick="openFilter(event, 'newsest')" id="defaultOpen">Phù hợp nhất</button>
+                                            <button class="filtercenter" onclick="openFilter(event, 'oldest')">Rẻ nhất</button>
+                                            <button class="filtercenter" onclick="openFilter(event, 'bestreview')">Đắt nhất</button>
+                                            <button class="filtercenter" onclick="openFilter(event, 'badreview')">Xếp hạng sao</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="newsest" class="reviews_listing">
+                                    <div class="user-listing">
+                                        <div class="user-avatar">
+                                        </div>
+                                        <div class="user-title">
+                                            <h3 class="text-14-b">Nguyễn Thành An</h3>
+                                            <div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-pencil ic-12"></i>
+                                                    <div class="text-12-black">13/04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-bed ic-12"></i>
+                                                    <div class="text-12-black">Peace Suite</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-calendar-check ic-12"></i>
+                                                    <div class="text-12-black">1 đêm - Tháng 04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-person-walking-luggage ic-12"></i>
+                                                    <div class="text-12-black">Cặp đôi</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="user-info">
+                                            <h3 class="text-14-b">Khách sạn sạch đẹp, thân thiện, gần trung tâm</h3>
+                                            <p class="text-14-gray">Phù hợp đi chơi gia đình có trẻ nhỏ và các gia đình muốn cùng nhau ở chung căn hộ để có không gian chung.
+                                            </p>
+                                            <div class="text-14-gray like-cmt">
+                                                <a href="#"><i class="fa-solid fa-thumbs-up ic-12"></i>Đánh giá này có hữu ích với bạn không?</a>
+                                            </div>
+                                        </div>
+                                        <div class="label_rating user-list">
+                                            <a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a>
+                                        </div>
+                                    </div>
+                                    <div class="user-listing">
+                                        <div class="user-avatar">
+                                        </div>
+                                        <div class="user-title">
+                                            <h3 class="text-14-b">Nguyễn Thành An</h3>
+                                            <div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-pencil ic-12"></i>
+                                                    <div class="text-12-black">13/04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-bed ic-12"></i>
+                                                    <div class="text-12-black">Peace Suite</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-calendar-check ic-12"></i>
+                                                    <div class="text-12-black">1 đêm - Tháng 04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-person-walking-luggage ic-12"></i>
+                                                    <div class="text-12-black">Cặp đôi</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="user-info">
+                                            <h3 class="text-14-b">Khách sạn sạch đẹp, thân thiện, gần trung tâm</h3>
+                                            <p class="text-14-gray">Phù hợp đi chơi gia đình có trẻ nhỏ và các gia đình muốn cùng nhau ở chung căn hộ để có không gian chung.
+                                            </p>
+                                            <div class="text-14-gray like-cmt">
+                                                <a href="#"><i class="fa-solid fa-thumbs-up ic-12"></i>Đánh giá này có hữu ích với bạn không?</a>
+                                            </div>
+                                        </div>
+                                        <div class="label_rating user-list">
+                                            <a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a>
+                                        </div>
+                                    </div>
+                                    <div class="user-listing">
+                                        <div class="user-avatar">
+                                        </div>
+                                        <div class="user-title">
+                                            <h3 class="text-14-b">Nguyễn Thành An</h3>
+                                            <div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-pencil ic-12"></i>
+                                                    <div class="text-12-black">13/04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-bed ic-12"></i>
+                                                    <div class="text-12-black">Peace Suite</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-calendar-check ic-12"></i>
+                                                    <div class="text-12-black">1 đêm - Tháng 04/2022</div>
+                                                </div>
+                                                <div class="user-text date-post">
+                                                    <i class="fa-solid fa-person-walking-luggage ic-12"></i>
+                                                    <div class="text-12-black">Cặp đôi</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="user-info">
+                                            <h3 class="text-14-b">Khách sạn sạch đẹp, thân thiện, gần trung tâm</h3>
+                                            <p class="text-14-gray">Phù hợp đi chơi gia đình có trẻ nhỏ và các gia đình muốn cùng nhau ở chung căn hộ để có không gian chung.
+                                            </p>
+                                            <div class="text-14-gray like-cmt">
+                                                <a href="#"><i class="fa-solid fa-thumbs-up ic-12"></i>Đánh giá này có hữu ích với bạn không?</a>
+                                            </div>
+                                        </div>
+                                        <div class="label_rating user-list">
+                                            <a href="#"><i class="fa-solid fa-umbrella"></i>9.6</a>
+                                        </div>
+                                    </div>
+                                    <div class="button-loadmore2">
+                                        <button class="loadmore" tabindex="0" type="button">Xem thêm 1266 đánh giá <i class="fa-solid fa-arrow-right-long"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="oldest" class="reviews_listing">
+                                </div>
+                                <div id="bestreview" class="reviews_listing">
+                                </div>
+                                <div id="badreview" class="reviews_listing">
+                                </div>
+                            </div>
+                        </div>                                            
+                </div>
+                <div class="col-xxl-3 col-xl-3 sidebar-sticky mt-30">
+                    <div id="sidebar">
+                        <div class="sidebar-inner">
+                            <div class="tour-price-parent">
+                                <div class="tour-price">
+                                    <span class="text-14-gray">Giá từ</span>
+                                    <span class="text-16-primary">4.903.465đ</span>
+                                    <span class="text-12-line-through">6.056.279đ</span>
+                                </div>
+                                <p class="text-14-gray">Giá trên bao gồm cho 1 khách</p>
+                                <div class="date-tour-detail mt-10">
+                                    <div class="title-location">
+                                        Ngày khởi hành
+                                    </div>
+                                    <div class="input-location">
+                                        <input type="text" class="form-control" placeholder="T2, 19 tháng 9"> 
+                                    </div>
+                                </div>
+                                <div class="person-tour-detail mt-10">
+                                    <div class="title-location person-2">
+                                        Người lớn
+                                        <span>4.903.465đ</span> 
+                                    </div>
+                                    <div class="input-location input-2">
+                                        <input type="text" class="form-control" placeholder="Từ 12 tuổi">
+                                    </div>
+                                </div>
+                                <div class="person-tour-detail mt-10">
+                                    <div class="title-location person-2">
+                                        Trẻ em
+                                        <span>3.608.000đ</span> 
+                                    </div>
+                                    <div class="input-location input-2">
+                                        <input type="text" class="form-control" placeholder="Từ 5 đến tuổi">
+                                    </div>
+                                </div>
+                                <div class="person-tour-detail mt-10">
+                                    <div class="title-location person-2">
+                                        Em bé
+                                        <span>2.208.000đ</span> 
+                                    </div>
+                                    <div class="input-location input-2">
+                                        <input type="text" class="form-control" placeholder="Dưới 2 tuổi">
+                                    </div>
+                                </div>
+
+                                <a href="tour-booking.html" class="btn-login-form btn-submit mt-10" type="submit">
+                                    Đặt Tour<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                </a>
+                            </div>
+                            <a href="#" class="text-12-green mt-10">Không chắc? Bạn có thể hủy đặt chỗ này trước tối đa 24 giờ để được hoàn lại toàn bộ tiền.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>        
+    </section>
+    <!-- Start Newsletter Area -->
+    <div class="newsletter">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-6">
+                        <div class="title">
+                            <a href="#"><img data-src="assets/images/newsletter/icon.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <h3>Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé máy bay?</h3>
+                            <p class="items-grid-hidden">Nhập số điện thoại/email để chúng tôi có thể gửi đến bạn những chương trình khuyến mại mới nhất!</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-6">
+                        <div class="form">
+                            <form action="#" method="get" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Nhập email của bạn..." type="email">
+                                <div class="button">
+                                    <button class="btn">Đăng ký<span class="dir-part"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Newsletter Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Các khách sạn hàng đầu</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Hạ Long</a></li>
+                                        <li><a href="#">Thừa Thiên Huế</a></li>
+                                        <li><a href="#">Quảng Bình</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Quảng Nam</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phan Thiết</a></li>
+                                        <li><a href="#">Bà Rịa - Vũng Tàu</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Cần Thơ</a></li>
+                                        <li><a href="#">Bắc Kạn</a></li>
+                                        <li><a href="#">Hà Giang</a></li>
+                                        <li><a href="#">Sa Pa</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Chuyến bay & Chặng bay</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hồ Chí Minh</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Quy Nhơn</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Tân Sơn Nhất - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Quy Nhơn</a></li>
+                                        <li><a href="#">Đà Nẵng - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Thanh Hóa - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Nha Trang</a></li>
+                                        <li><a href="#">Hà Nội - TP Vinh</a></li>
+                                        <li><a href="#">Huế - Tân Sơn Nhất</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Tour du lịch</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+        <!-- Start Footer Middle -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">goStay - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                                <ul class="footer-address">
+                                    <li><a href="#"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Kết nối với chúng tôi</h3>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Chấp nhận thanh toán</h3>
+                                <ul class="payment">
+                                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+        <!--/ End Footer Middle -->
+
+        <!-- Start Footer Bottom -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                        </div>
+                        <div class="footter-botom-image">
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js?v=1" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/filter-center.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+    <script src="assets/js/sticky-sidebar.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/owlcarousel/owl-carousel-custom.js"></script>
+</body>
+
+</html>

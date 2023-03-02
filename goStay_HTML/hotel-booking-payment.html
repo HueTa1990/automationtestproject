@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img data-src="assets/images/logo/logo.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar navbar_closed" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="index.html"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Trang Chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="hotel-listing.html" aria-label="Toggle navigation">Khách sạn</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="tour-listing.html" aria-label="Toggle navigation">Tour</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="flight-listing-departure.html" aria-label="Toggle navigation">Chuyến bay</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="index-mobile.html" aria-label="Toggle navigation">Mobile</a>                                       
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="promotion-listing.html" aria-label="Toggle navigation">Khuyến mãi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" aria-label="Toggle navigation">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="become">
+                                <a href="#">Become a GoStay</a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="click-drop-menu">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+                                    <div class="click-drop-avata">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginform">
+                                            Đăng nhập
+                                            </button>
+                                        </div>                                            
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginverify">
+                                                Xác thực đăng nhập
+                                            </button> 
+                                        </div>                                       
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#loginformemail">
+                                                Đăng nhập Email
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#registeremail">
+                                                Đăng ký
+                                            </button>
+                                        </div>      
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification">
+                                                Notification
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom" data-bs-toggle="modal" data-bs-target="#notification-1">
+                                                Notification 1
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <div>
+                                                <a href="listing-wislist.html" class="btn-login-custom">
+                                                    Danh sách yêu thích
+                                                </a>
+                                            </div>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Hỗ trợ
+                                            </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Cộng tác viên
+                                            </button>
+                                        </div>  
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <section class="step-header sticky3">
+        <div class="container">
+            <div class="step">
+                <div class="step-by-step">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <a href="#" class="step1 w-300px active">
+                                <div class="step11 active">
+                                    <i class="fa-solid fa-check active"></i>
+                                    <p class="active">Thông tin khách hàng</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="step1 w-300px active">
+                                <div class="step11 active">
+                                    <i class="fa-solid fa-check active"></i>
+                                    <p class="active">Phương thức thanh toán</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"  class="step1 w-300px">
+                                <div class="step11">
+                                    <i class="fa-solid fa-check"></i>
+                                    <p class="">Đặt phòng thành công</p>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="step-hidden text-align-center">
+                <a href="#" class="step1 w-300px">
+                    <div class="step11 active">
+                        <i class="fa-solid fa-check active"></i>
+                        <p class="active">Phương thức thanh toán</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End Header Area -->
+
+    <section class="hotel-booking-payment wow fadeInUp" data-wow-delay=".3s">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-6 mb-30">
+                    <div class="booking-user-info">
+                        <h3 class="text-16-b">Thông tin liên hệ</h3>
+                        <div class="bk-user-login">
+                            <a href="#"><i class="fa-regular fa-circle-user ic-16-blue"></i>
+                            <span href="#" class="text-14-blue">Đăng nhập ngay</span>
+                            <span class="text-14-gray">để đặt phòng nhanh hơn, không cần nhập thông tin!</span>
+                            </a>
+                        </div>
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-floating">
+                                        <input class="form-control form-control-custom" id="txtFulname" type="text" placeholder="Bạn cần nhập vào Họ tên" required="" data-val-required="Bạn cần nhập vào Họ tên" name="UserName" value="Admin">
+                                        <label for="txtFulname">Họ tên (*)</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input class="form-control form-control-custom" id="txtEmail" type="text" placeholder="Bạn cần nhập vào Email" name="Email" value="admin@exam.com">
+                                        <label for="txtEmail">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-floating">
+                                        <input class="form-control form-control-custom" id="txtMobile" type="text" placeholder="Bạn cần nhập vào số điện thoại" required="" data-val-required="Bạn cần nhập vào số điện thoại" name="Mobile" value="03433219800">
+                                        <label for="txtMobile">Điện thoại (*)</label>
+                                    </div>
+                                    <div class="form-floating">
+                                        <input class="form-control form-control-custom" id="txtAddress" type="text" placeholder="Bạn cần nhập vào địa chỉ" name="Address" value="Karachi">
+                                        <label for="txtAddress">Địa chỉ</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-6">
+                    <div class="booking-payment-parent pd-30">
+                        <h3 class="text-18 ">Chọn phương thức thanh toán</h3>
+                        <div class="line-horizontal"></div>
+                        <div class="payment-desc">
+                            <div class="text-14-gray desc-top">Chúng tôi chỉ có số phòng giới hạn ở mức giá này - hãy đặt ngay! Chỉ còn 7 ngày nữa chuyến du lịch của bạn sẽ bắt đầu. Đừng bỏ lỡ giá tốt, hãy đặt phòng ngay!</div>
+                            <div class="text-14-gray">Hãy đặt liền để đảm bảo có phòng.  Hạ giá phút chót!</div>   
+                        </div>
+                        <hr>
+                        <div class="form mt-30">
+                            <div class="row">
+                                <div class="col-xxl-6 col-12 pt-10 pb-10 ratio-">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            <div class="pay-icon">
+                                                <img src="assets/images/payment/momo.jpg">
+                                                <div class="text-14">Thanh toán qua momo                                        
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-12 pt-10 pb-10 ratio-">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            <div class="pay-icon zalopay">
+                                                <img src="assets/images/payment/zalopay.jpg">
+                                                <div class="text-14">Thanh toán qua Zalopay                                
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-12 pt-10 pb-10 ratio-">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            <div class="pay-icon viettel">
+                                                <img src="assets/images/payment/viettel.jpg">
+                                                <div class="text-14">Thanh toán qua ViettelPay                                
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-12 pt-10 pb-10 ratio-active">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">                                      
+                                            <div class="pay-icon cktt">
+                                                <img src="assets/images/payment/cktt.jpg">
+                                                <div class="text-14">Chuyển khoản trực tiếp                                
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-12 pt-10 pb-10 ratio-">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                                        <label class="form-check-label" for="flexRadioDisabled">
+                                            <div class="pay-icon cod">
+                                                <img src="assets/images/payment/cod.jpg">
+                                                <div class="text-14">Thanh toán khi nhận phòng                               
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-confirm">
+                    <a href="hotel-booking-success.html" class="btn-login-form btn-submit mt-20" type="submit">
+                        Xác nhận đã thanh toán<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!-- Start Newsletter Area -->
+    <div class="newsletter">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-6">
+                        <div class="title">
+                            <a href="#"><img data-src="assets/images/newsletter/icon.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <h3>Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé máy bay?</h3>
+                            <p class="items-grid-hidden">Nhập số điện thoại/email để chúng tôi có thể gửi đến bạn những chương trình khuyến mại mới nhất!</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-6">
+                        <div class="form">
+                            <form action="#" method="get" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Nhập email của bạn..." type="email">
+                                <div class="button">
+                                    <button class="btn">Đăng ký<span class="dir-part"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Newsletter Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Các khách sạn hàng đầu</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Hạ Long</a></li>
+                                        <li><a href="#">Thừa Thiên Huế</a></li>
+                                        <li><a href="#">Quảng Bình</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Quảng Nam</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phan Thiết</a></li>
+                                        <li><a href="#">Bà Rịa - Vũng Tàu</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Cần Thơ</a></li>
+                                        <li><a href="#">Bắc Kạn</a></li>
+                                        <li><a href="#">Hà Giang</a></li>
+                                        <li><a href="#">Sa Pa</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Chuyến bay & Chặng bay</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hồ Chí Minh</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Quy Nhơn</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Tân Sơn Nhất - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Quy Nhơn</a></li>
+                                        <li><a href="#">Đà Nẵng - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Thanh Hóa - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Nha Trang</a></li>
+                                        <li><a href="#">Hà Nội - TP Vinh</a></li>
+                                        <li><a href="#">Huế - Tân Sơn Nhất</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Tour du lịch</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+        <!-- Start Footer Middle -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">goStay - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                                <ul class="footer-address">
+                                    <li><a href="#"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Kết nối với chúng tôi</h3>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Chấp nhận thanh toán</h3>
+                                <ul class="payment">
+                                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+        <!--/ End Footer Middle -->
+
+        <!-- Start Footer Bottom -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                        </div>
+                        <div class="footter-botom-image">
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!--/ End Footer Area -->
+
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/header2.js"></script>
+
+</body>
+</html>

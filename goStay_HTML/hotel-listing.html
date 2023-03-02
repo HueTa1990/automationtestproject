@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goStay - Đặt phòng khách sạn, tour du lịch, vé máy bay uy tín và nhanh chóng </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- /End Preloader -->
+    <header class="header navbar-area">
+        <div class="container ">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo/logo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="index.html" aria-label="Toggle navigation">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" active dd-menu collapsed" href="hotel-listing.html"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-1"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Khách sạn</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Khuyến mãi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Tin tức</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="become">
+                                <a href="#">Become a GoStay</a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="click-drop-menu">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </div>
+                                    <div class="click-drop-avata">
+                                        <i class="fa-solid fa-circle-user"></i>
+                                    </div>
+                                    <span class="position-absolute noti2 bg-danger rounded-circle">
+                                    </span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                            <button type="button" class="btn-login-custom">
+                                                Tài khoản của tôi
+                                            </button>
+                                        </div>                                        
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item pl-20">
+                                        <button type="button" class="btn-login-custom">
+                                            Thông báo
+                                            <span class="position-absolute noti bg-danger rounded-circle">
+                                            </span>
+                                        </button>
+                                        </div>                                        
+                                    </li>
+                                    <li><hr></li>
+                                    <li>
+                                        <div class="dropdown-item">
+                                        <button type="button" class="btn-login-custom">
+                                            Notification
+                                        </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item">
+                                        <button type="button" class="btn-login-custom">
+                                            Notification
+                                        </button>
+                                        </div>  
+                                    </li>
+                                    <li><hr></li>
+                                    <li>
+                                        <div class="dropdown-item">
+                                        <button type="button" class="btn-login-custom">
+                                            Đăng xuất
+                                        </button>
+                                        </div>  
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-item">
+                                        <button type="button" class="btn-login-custom">
+                                            Hỗ trợ
+                                        </button>
+                                        </div>  
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    
+    <!-- Start Searh Form Area -->
+    <div class="search-fitler-breadcrumns">
+        <div class="container-fluid sticky2">
+            <div class="search-filter-inner">
+                <div class="container">
+                    <div class="hotel-search-form">
+                        <div class="row search-filter1 align-items-center">
+                            <div class="col-12 p-0">
+                                <div class="search">
+                                    <div class="search-form">
+                                        <div class="row ">
+                                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 search-location">
+                                                <div class="form-floating search-box">
+                                                    <div class="d-flex align-items-center justify-between">
+                                                        <input type="email" class="form-control" id="txtInputHotelSearch" placeholder="Thành phố, khách sạn, điểm đến...">
+                                                        <div class="delete-show-hide">
+                                                            <i class="fa-solid fa-xmark ic-16-gray"></i>                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 select-date bd-left pl-20">
+                                                <div class="row align-items-center">
+                                                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-4" >     
+                                                        <div class="title-date">
+                                                            Ngày đến
+                                                        </div>
+                                                        <div class="input-date">
+                                                            <input type="text" class="form-control" id="txtInputDateSearch" placeholder="T2, 19 tháng 9"> 
+                                                        </div>
+                                                    </div> 
+                                                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-4" >  
+                                                        <div class="night">
+                                                            3<i class="fa-regular fa-moon"></i>
+                                                        </div>                                                  
+                                                    </div> 
+                                                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-4" >     
+                                                        <div class="title-date">
+                                                            Ngày về
+                                                         </div>
+                                                        <div class="input-date">
+                                                            <input type="text" class="form-control" placeholder="T2, 22 tháng 9"> 
+                                                        </div>
+                                                    </div>   
+                                                </div>                                       
+                                            </div>
+                                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 select-room bd-left pl-20">      
+                                                <div class="col-8" >     
+                                                    <div class="title-date">
+                                                        Số phòng, số khách
+                                                    </div>
+                                                    <div class="input-date">
+                                                        <input type="text" class="form-control w-100" id="txtInputRoomSearch" placeholder="1 phòng, 2 người lớn, 0 trẻ em"> 
+                                                    </div>
+                                                </div> 
+                                                <div class="col-4" >     
+                                                        <div class="button-search">
+                                                            <button class="btn-search" type="submit"><i class="fa-solid fa-magnifying-glass ic-16-white"></i></button>
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div>
+                                <div id="result_search_hotel">
+                                    <div class="result-room drop-location w-100">
+                                        <div class="container">
+                                            <div class="row pt-30 pb-30">
+                                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 pb-20">
+                                                    <div class="title-drop-result3">
+                                                        <h3 class="text-16-b">Tìm kiếm gần đây</h3>
+                                                        <a href="#"><i class="fa-solid fa-trash-can color-primary"></i></a>
+                                                    </div>
+                                                    <div class="drop-left-result">
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="image-result">
+                                                                    <img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result">
+                                                                    <a href="#">Khu Nghỉ Dưỡng Long Beach Phú Quốc (Long Beach Resort - Phu Quoc Island)</a>
+                                                                    <p class="result-title-location">Quận Sơn Trà, Đà Nẵng</p>
+                                                                    <label>Khách sạn</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="search-result pt-10 pb-10">
+                                                            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-3">
+                                                                <div class="location-result">
+                                                                    <i class="fa-solid fa-location-dot"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-9">
+                                                                <div class="title-result3">
+                                                                    <div class="col-9 result3-left">
+                                                                        <a href="#">Thành Phố Đà Lạt</a>
+                                                                        <p class="result-title-location">Tỉnh Lâm Đồng</p>
+                                                                    </div>
+                                                                    <div class="col-3 result3-right">
+                                                                        <p>1366<i class="fa-solid fa-hotel"></i></p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12">
+                                                    <div class="title-drop-result3 pb-20">
+                                                        <h3 class="text-16-b">Địa điểm nổi bật</h3>
+                                                        <div href="#">Xem Thêm <i class="fa-solid fa-chevron-right"></i></div>
+                                                    </div>
+                                                    <div class="row popular-location">
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/phu-quoc.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Phú Quốc</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/nha-trang.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Nha Trang</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/da-lat.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Đà Lạt</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/da-nang.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Đà Nẵng</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/ninh-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Ninh Bình</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/sapa.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Sa Pa</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/hoa-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hòa Bình</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/ha-long.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hạ Long</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/hoa-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hòa Bình</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/ha-long.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hạ Long</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/hoa-binh.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hòa Bình</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col mt-20">
+                                                            <div class="img-location">
+                                                                <a href="#"><img data-src="assets/images/location/ha-long.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                                                            </div>
+                                                            <div class="title-location1">    
+                                                                <a href="#">Hạ Long</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="result_search_date"> 
+                                    <div class="drop-select-date w-100">
+                                            <div class="drop-date date-selection">
+                                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">                         
+                                                </div>
+                                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">                                                              
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div id="result_search_room3">           
+                                    <div class="room-three drop-select-room1">
+                                            <ul class="drop-room" id="ul_room_c">
+                                                <li class="person-parent person-child room">
+                                                    <span>Đi một mình</span>
+                                                </li>
+                                                <li class="person-parent person-child room">
+                                                        <span> Đi cặp đôi/2 người</span>
+                                                </li>
+                                                <li class="person-parent person-child room active">
+                                                        <span> Đi theo gia đình</span>
+                                                </li>
+                                                <li class="person-parent person-child room">
+                                                        <span> Đi theo nhóm</span>
+                                                </li>
+                                                <li class="person-parent person-child1 room">
+                                                        <span> Đi công tác</span>
+                                                </li>
+                                            </ul>
+                                            <div id="family-room" class="family-room-parent">
+                                                    <div class="family-room room">
+                                                            <div class="family-title">
+                                                                Phòng
+                                                            </div>
+                                                            <div class="family-quality">
+                                                            <span><i class="fa-solid fa-minus"></i></span>1
+                                                            <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>
+                                                    <div class="family-room person">
+                                                            <div class="family-title">
+                                                                Người Lớn
+                                                            </div>
+                                                            <div class="family-quality">
+                                                                <span><i class="fa-solid fa-minus"></i></span>1
+                                                                <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>
+                                                    <div class="family-room child">
+                                                            <div class="family-title">
+                                                                Trẻ em
+                                                            </div>
+                                                            <div class="family-quality">
+                                                                <span><i class="fa-solid fa-minus"></i></span>2
+                                                                <span><i class="fa-solid fa-plus"></i></span>
+                                                            </div>
+                                                    </div>
+                                                    <div id="child-select" class="child-select">
+                                                        <div class="family-title">
+                                                            Nhập tuổi trẻ em
+                                                        </div>
+                                                        <div class="child0">
+                                                            <div class="child1">
+                                                                <p>Trẻ em 1</p>
+                                                                <select id="age1">
+                                                                    <option value="0">0 Tuổi </option>
+                                                                    <option value="1">1 Tuổi</option>
+                                                                    <option value="2">2 Tuổi</option>
+                                                                    <option value="3">3 Tuổi</option>
+                                                                    <option value="4">4 Tuổi</option>
+                                                                    <option value="5">5 Tuổi</option>
+                                                                    <option value="6">6 Tuổi</option>
+                                                                    <option value="7">7 Tuổi</option>
+                                                                    <option value="8">8 Tuổi</option>
+                                                                    <option value="9">9 Tuổi</option>
+                                                                    <option value="10" selected>10 Tuổi</option>
+                                                                    <option value="11">11 Tuổi</option>
+                                                                    <option value="12">12 Tuổi</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="child2">
+                                                                <p>Trẻ em 2</p>
+                                                                <select id="age2">
+                                                                    <option value="0">0 Tuổi </option>
+                                                                    <option value="1">1 Tuổi</option>
+                                                                    <option value="2">2 Tuổi</option>
+                                                                    <option value="3">3 Tuổi</option>
+                                                                    <option value="4">4 Tuổi</option>
+                                                                    <option value="5">5 Tuổi</option>
+                                                                    <option value="6">6 Tuổi</option>
+                                                                    <option value="7">7 Tuổi</option>
+                                                                    <option value="8">8 Tuổi</option>
+                                                                    <option value="9">9 Tuổi</option>
+                                                                    <option value="10" selected>10 Tuổi</option>
+                                                                    <option value="11">11 Tuổi</option>
+                                                                    <option value="12">12 Tuổi</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                        
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hotel-search-fitler overlay">
+                <img data-src="assets/images/slider/bg-slider.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+            </div> 
+        </div>
+    </div>
+    <!-- /End Searh Form Area -->
+
+    <!-- Breadcrumns -->
+    <div class="breadcrumns">
+        <div class="container">
+            <div class="breadcrumns-1 mt-20 mb-30">
+                <div class="row">
+                  <div class="col-auto br-parent">
+                    <div class="">Trang chủ</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="">Khách sạn</div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class=""><i class="fa-solid fa-chevron-right ic-12"></i></div>
+                  </div>
+                  <div class="col-auto br-parent">
+                    <div class="color-primary">Đà Nẵng</div>
+                  </div>
+    
+                </div>
+              </div>
+        </div>
+    </div>
+   <!-- End Breadcrumns -->
+
+    <!-- Search Hotel Listing Pages -->
+    <div class="listing-page wow fadeInUp" data-wow-delay=".3s">
+        <div class="hotel-result-page">
+                <div class="container">
+                    <div class="title-hotel-result-page">
+                        <h3>270 Khách sạn tại Đà Nẵng</h3>
+                    </div>
+                    <div class="filter-mb-parent-responsive">
+                        <button class="btn btn-filter-custom" onclick="myFunction()">
+                            <i class="fa-solid fa-arrow-down-wide-short ic-20"></i> Bộ lọc
+                        </button>
+                    </div>
+                    <div class="row row-col-12 hotel-content">
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-12 left-sidebar">
+                            <div class="hotel-maps">
+                                <div class="button-view-maps">
+                                    <a href="hotel-grid-maps.html" class="button-maps">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Xem trên bản đồ
+                                    </a>
+                                </div>
+                                <div class="bg-maps">
+                                    <img data-src="assets/images/gg-maps/bg-maps.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" >
+                                </div>
+                            </div>
+                            <div class="hotel-filter-sidebar mt-30" id="myDIV">
+                                <div id="filter_sidebar">
+                                    <div class="title-filter-sidebar">
+                                        <div class="text-14-b">Bộ lọc</div>
+                                        <button class="text-14-blue">Xóa tất cả lọc</button>
+                                    </div>
+                                    <div class="filter-sidebar price">
+                                        <a>Khoảng giá (1 đêm)</a>
+                                        <p>0đ - 5.000.000+ đ</p>
+                                        <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                                    </div>
+                                    <div class="filter-sidebar rating">
+                                        <a>Hạng khách sạn</a>
+                                        <div class="rating-star">
+                                            <div class="form-check ">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <div class="rating-5-sao">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <div class="rating-4-sao">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <div class="rating-3-sao">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <div class="rating-2-sao">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    <div class="rating-1-sao">
+                                                    </div>
+                                                </label>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar region">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Theo khu vực</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>
+                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Quận Liên Chiểu
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Quận Sơn Trà
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Quận Ngũ Hành Sơn
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Quận Cẩm Lệ
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Quận Hải Châu
+                                                </label>
+                                            </div>
+                                            <div class="load-more-sidebar">
+                                                <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar hotel-type">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Loại khách sạn</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Khách sạn
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Khách sạn căn hộ
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Khu nghỉ dưỡng
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar user-review-sidebar">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Người dùng đánh giá</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Tuyệt vời (9.0+)
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Rất tốt (8.0+)
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Tốt (7.0+)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar services">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Dịch vụ đi kèm</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Ăn sáng miễn phí
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Hủy miễn phí
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Khuyến mãi, giảm giá
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar extra-services">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Tiện nghi</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Đưa / đón khách sân bay
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Đưa / đón khách bến phà
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Đưa / đón khách ga tàu
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Cho thuê xe máy
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Cho thuê ô tô
+                                                </label>
+                                            </div>
+                                            <div class="load-more-sidebar">
+                                                <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-sidebar1 our-brands">
+                                        <div class="title-filter">
+                                            <div class="text-14-b">Thương hiệu</div>
+                                            <button class="text-14-blue">Xóa</button>
+                                        </div>                                        <div class="parent">
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Vinpeal
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    FLC Group
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mường Thanh Hotel Group
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Novotel
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sheraton
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Vinpeal
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    FLC Group
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mường Thanh Hotel Group
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Novotel
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sheraton
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Vinpeal
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    FLC Group
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mường Thanh Hotel Group
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Novotel
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sheraton
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Vinpeal
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    FLC Group
+                                                </label>
+                                            </div> 
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mường Thanh Hotel Group
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Novotel
+                                                </label>
+                                            </div>
+                                            <div class="form-check filter-child">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Sheraton
+                                                </label>
+                                            </div>
+                                            <div class="load-more-sidebar">
+                                                <span><button class="btn btn-primary" type="button">Xem thêm<i class="fa-solid fa-chevron-right"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8 col-12 main-content-listing">
+                            <div class="filter-topbar">
+                                    <div class="tab-filter-top">
+                                        <p>Sắp xếp:</p>
+                                        <a class="filtertop" onclick="openFilter(event, 'best_fit')" id="defaultOpen">Phù hợp nhất</a>
+                                        <a class="filtertop" onclick="openFilter(event, 'cheapest')">Rẻ nhất</a>
+                                        <a class="filtertop" onclick="openFilter(event, 'expensive')">Đắt nhất</a>
+                                        <a class="filtertop" onclick="openFilter(event, 'rating')">Xếp hạng sao</a>
+                                        <a class="filtertop" onclick="openFilter(event, 'best_rate')">Đánh giá cao nhất</a>
+                                    </div>
+                            </div>
+                            <div class="content_listing">
+                                    <div id="best_fit" class="content_listing_page">                                            
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="assets/images/items-grid/img1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                        </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="hotel-detail.html">Khu Nghỉ Salinda Phú Quốc (Salinda Resort Phu Quoc Island)</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a  href="hotel-detail.html" class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>  
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="assets/images/items-grid/img2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                          <div class="swiper-slide">
+                                                            <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                          </div>
+                                                        </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="hotel-detail.html">Khách sạn Dolce Hanoi Golden Lake</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                    <div class="sub-title grid-list-breakfast">
+                                                        <span><i class="fa-solid fa-utensils"></i></span>
+                                                        <p>Miễn phí bữa sáng</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a> 
+                                                    <p class="free-cancel"><span>Miễn phí hoàn hủy</span></p>
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                     </div>
+                                                     <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="hotel-detail.html">Premier Residences Phú Quốc Emerald Bay</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>                                                
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="#">Citadines Marina Hạ Long</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="#">Binh An Village Đà Lạt Resort</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                     </div>
+                                                     <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img6.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="#">Seashells Hotel & Spa Phú Quốc (Seashells Phu Quoc Hotel & Spa)</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img7.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="#">Vinpearl Resort & Spa Phú Quốc</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="items-grid-listing">
+                                                <div class="items-grid-image col-xxl-4 col-xl-4 col-lg-4 col">
+                                                    <div class="heart2">
+                                                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                                    </div>
+                                                    <div class="swiper mySwiper7">
+                                                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="assets/images/items-grid/img8.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                            <div class="swiper-slide">
+                                                              <a href="tour-detail.html"><img data-src="https://placehold.jp/888x678.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" alt="#"></a>
+                                                            </div>
+                                                          </div>
+                                                        <div class="swiper-pagination swiper-pagination-custom"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="listing-grid-text col-xxl-5 col-xl-5 col-lg-5 col">
+                                                    <div class="grid-listing-title">
+                                                        <h3><a href="#">Sunset View from Resort & Ombra Phú Quốc</a></h3>
+                                                    </div>
+                                                    <div class="rate-list">
+                                                        <div class="rating-star-list">
+                                                                <ul class="star1">
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                    <li><i class="fa-solid fa-star"></i></li>
+                                                                </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="user-review">
+                                                        <div class="label2">
+                                                            <i class="fa-solid fa-umbrella"></i> 9.6</a></li>
+                                                        </div>
+                                                        <a href="#">Tuyệt vời <span>(231 đánh giá)</span></a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-region">
+                                                        <a href="#">
+                                                            <span><i class="fa-solid fa-location-dot"></i></span>
+                                                            <span>Quận Sơn Trà, Đà Nẵng</span>
+                                                            <span class="more-map">Xem trên bản đồ</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="sub-title grid-list-bed">
+                                                        <span><i class="fa-solid fa-bed"></i></span>
+                                                        <p>Phòng 8 giường hai tầng (giá cho 1 khách)</p>
+                                                    </div>
+                                                </div>    
+                                                <div class="grid-listing-price col-xxl-3 col-xl-3 col-lg-3 col">
+                                                    <p class="label_discount">-51%</p>
+                                                    <p class="base_price"><span>1.056.279đ</span></p>
+                                                    <p class="price"><span>1.003.465đ</span></p>
+                                                    <a class="btn-login-form btn-submit" type="submit">
+                                                        Chọn phòng<i class="fa-solid fa-arrow-trend-up pl-10"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="button-loadmore2">
+                                                <button class="loadmore" tabindex="0" type="button">Xem thêm 366 khách sạn <i class="fa-solid fa-arrow-right-long"></i>
+                                                </button>
+                                            </div>
+                                    </div>
+
+                                    <div id="cheapest" class="content_listing_page">
+                                    </div>
+                                    <div id="expensive" class="content_listing_page">
+                                    </div>
+                                    <div id="rating" class="content_listing_page">
+                                    </div>
+                                    <div id="best_rate" class="content_listing_page">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+    </div>
+
+    <!-- End Search Hotel Listing Pages -->
+    
+    <!-- Start Newsletter Area -->
+    <div class="newsletter">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-xxl-7 col-xl-7 col-lg-6">
+                        <div class="title">
+                            <a href="#"><img data-src="assets/images/newsletter/icon.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <h3>Bạn muốn tiết kiệm tới 50% khi đặt phòng khách sạn, vé máy bay?</h3>
+                            <p class="items-grid-hidden">Nhập số điện thoại/email để chúng tôi có thể gửi đến bạn những chương trình khuyến mại mới nhất!</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-6">
+                        <div class="form">
+                            <form action="#" method="get" target="_blank" class="newsletter-form">
+                                <input name="EMAIL" placeholder="Nhập email của bạn..." type="email">
+                                <div class="button">
+                                    <button class="btn">Đăng ký<span class="dir-part"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Newsletter Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Các khách sạn hàng đầu</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Hạ Long</a></li>
+                                        <li><a href="#">Thừa Thiên Huế</a></li>
+                                        <li><a href="#">Quảng Bình</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Quảng Nam</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phan Thiết</a></li>
+                                        <li><a href="#">Bà Rịa - Vũng Tàu</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Cần Thơ</a></li>
+                                        <li><a href="#">Bắc Kạn</a></li>
+                                        <li><a href="#">Hà Giang</a></li>
+                                        <li><a href="#">Sa Pa</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Chuyến bay & Chặng bay</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội</a></li>
+                                        <li><a href="#">Hồ Chí Minh</a></li>
+                                        <li><a href="#">Đà Nẵng</a></li>
+                                        <li><a href="#">Nha Trang</a></li>
+                                        <li><a href="#">Hải Phòng</a></li>
+                                        <li><a href="#">Đà Lạt</a></li>
+                                        <li><a href="#">Phú Quốc</a></li>
+                                        <li><a href="#">Quy Nhơn</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Hà Nội - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Tân Sơn Nhất - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Quy Nhơn</a></li>
+                                        <li><a href="#">Đà Nẵng - Tân Sơn Nhất</a></li>
+                                        <li><a href="#">Thanh Hóa - Hà Nội</a></li>
+                                        <li><a href="#">Hà Nội - Nha Trang</a></li>
+                                        <li><a href="#">Hà Nội - TP Vinh</a></li>
+                                        <li><a href="#">Huế - Tân Sơn Nhất</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <div class="footer-title pb-20">
+                                <h3 class="text-18 mr-10">Tour du lịch</h3>
+                                <div class="bg-line-primary"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour 8 Ngày 7 Đêm</a></li>
+                                        <li><a href="#">Tour 7 Ngày 6 Đêm</a></li>
+                                        <li><a href="#">Tour 6 Ngày 5 Đêm</a></li>
+                                        <li><a href="#">Tour 5 Ngày 4 Đêm</a></li>
+                                        <li><a href="#">Tour 4 Ngày 3 Đêm</a></li>
+                                        <li><a href="#">Tour 3 Ngày 2 Đêm</a></li>
+                                        <li><a href="#">Tour 2 Ngày 1 Đêm</a></li>
+                                        <li><a href="#">Tour 1 Ngày 1 Đêm</a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-6">
+                                    <ul>
+                                        <li><a href="#">Tour Phú Quốc</a></li>
+                                        <li><a href="#">Tour Sa Pa</a></li>
+                                        <li><a href="#">Tour Đà Nẵng</a></li>
+                                        <li><a href="#">Tour Quy Nhơn</a></li>
+                                        <li><a href="#">Tour Ninh Bình</a></li>
+                                        <li><a href="#">Tour Hà Giang</a></li>
+                                        <li><a href="#">Tour Đà Lạt</a></li>
+                                        <li><a href="#">Tour Nha Trang</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+
+        <!-- Start Footer Middle -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">goStay - Du lịch thông minh với một ứng dụng duy nhất</h3>
+                                <ul class="footer-address">
+                                    <li><a href="#"><i class="fa-solid fa-location-dot ic-16"></i>Địa chỉ: Tầng 2, TTTM HPC Landmark 105, đường Tố Hữu, Q.Hà Đông, TP. Hà Nội.</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-envelope ic-16"></i>Email: info@gostay.vn</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-phone ic-16"></i>Điện thoại: 19002167 / Hotline: 056.728.8999</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Kết nối với chúng tôi</h3>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-3 col-lg-3 col-12">
+                            <div class="content">
+                                <h3 class="text-18 mb-20">Chấp nhận thanh toán</h3>
+                                <ul class="payment">
+                                    <li><a href="#"><img data-src="assets/images/payment/1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/4.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                    <li><a href="#"><img data-src="assets/images/payment/5.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+        <!--/ End Footer Middle -->
+
+        <!-- Start Footer Bottom -->
+        <div class="footer-middle">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>©2022 <a href="#">goStay</a>. Bản quyền thuộc về Công Ty Cổ Phần Khai Thác Và Dịch Vụ Du Lịch SGO. MSDN: 0110037323 - Nơi cấp: Phòng đăng ký kinh doanh, Sở Kế hoạch và Đầu tư TP. Hà Nội.</p>
+                        </div>
+                        <div class="footter-botom-image">
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                            <a href="#"><img data-src="assets/images/footer/logo-congthuong-1.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8Uw8AAj0BXe1cD0IAAAAASUVORK5CYII=" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!--/ End Footer Area -->
+
+
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/fitler-topbar.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tab-search.js" defer></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/swipecarousel/swiper-bundle.min.js"></script>
+    <script src="assets/swipecarousel/swipecarousel.js"></script>
+    <script src="assets/js/alpine.min.js"></script>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        }
+    </script>
+</body>
+
+</html>
