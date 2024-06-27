@@ -21,8 +21,22 @@ public class StepLoginCRM {
     @Then("I should be taken to the Dashboard page")
     public void iShouldBeTakenToTheDashboardPage() {
     }
-
     @And("I should see the {string} menu")
     public void iShouldSeeTheMenu(String arg0) {
     }
+    @And("I should see the notification displays")
+    public void iShouldSeeTheNotificationDisplays() {
+    }
+    @Given("there are {string} cucumbers")
+    public void thereAreCucumbers(String arg0) {
+    }
+
+    @When("I eat {string} cucumbers")
+    public void iEatCucumbers(String arg0) {
+    }
+
+    @Then("I should have {string} cucumbers")
+    public void iShouldHaveCucumbers(String arg0) {
+    }
+
 }
